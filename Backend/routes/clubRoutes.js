@@ -1,0 +1,16 @@
+/* eslint-disable prettier/prettier */
+const express = require('express');
+const clubController = require('../controllers/clubController');
+
+const router = express.Router();
+router
+  .route('/')
+  .get(clubController.getAllClubs)
+  .post(clubController.addNewClub);
+router
+  .route('/:id')
+  .get(clubController.getClub)
+  .patch(clubController.updateClub)
+  .delete(clubController.deleteClub);
+
+module.exports = router;

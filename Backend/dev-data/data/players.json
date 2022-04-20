@@ -1,0 +1,113 @@
+[
+  {
+    "firstName": "Charles",
+    "lastName": "Lukago",
+    "price": 5.0,
+    "rating": 4.7,
+    "position": "Goalkeeper",
+    "photo": "player-0.jpg",
+    "point": 6,
+    "injury": 0
+  },
+  {
+    "firstName": "Salahadin ",
+    "lastName": "Bargicho",
+    "price": 5.6,
+    "rating": 5.7,
+    "position": "Center-back",
+    "photo": "player-1.jpg",
+    "point": 7.8,
+    "injury": 0
+  },
+  {
+    "firstName": "Mignot",
+    "lastName": "Debebe",
+    "price": 6.6,
+    "rating": 6.0,
+    "position": "Center-back",
+    "photo": "player-2.jpg",
+    "point": 7,
+    "injury": 0
+  },
+  {
+    "firstName": "Henok",
+    "lastName": "Adugna",
+    "price": 7.9,
+    "rating": 6.7,
+    "position": "Right-back",
+    "photo": "player-3.jpg",
+    "point": 6.5,
+    "injury": 0.25
+  },
+  {
+    "firstName": "Sulemn ",
+    "lastName": "Hamid",
+    "price": 8.6,
+    "rating": 6.7,
+    "position": "Left-back",
+    "photo": "player-4.jpg",
+    "point": 5.9,
+    "injury": 0
+  },
+  {
+    "firstName": "Berket",
+    "lastName": "Wolde",
+    "price": 7.6,
+    "rating": 6.3,
+    "position": "Defensive Midfield",
+    "photo": "player-5.jpg",
+    "point": 7.2,
+    "injury": 0
+  },
+  {
+    "firstName": "Natnael",
+    "lastName": "Sherifa",
+    "price": 7.9,
+    "rating": 6.9,
+    "position": "Central Midfield",
+    "photo": "player-6.jpg",
+    "point": 7,
+    "injury": 0.5
+  },
+  {
+    "firstName": "Canaan",
+    "lastName": "Markneh",
+    "price": 8.6,
+    "rating": 7.7,
+    "position": "Attacking Midfield",
+    "photo": "player-7.jpg",
+    "point": 8,
+    "injury": 0
+  },
+
+  {
+    "firstName": "Gatoch",
+    "lastName": "Panom",
+    "price": 9.0,
+    "rating": 8.2,
+    "position": "Defensive Midfield",
+    "photo": "player-8.jpg",
+    "point": 7.8,
+    "injury": 0
+  },
+  {
+    "firstName": "Chernet",
+    "lastName": "Gugsa",
+    "price": 10.8,
+    "rating": 7.7,
+    "position": "Left Winger",
+    "photo": "player-9.jpg",
+    "point": 8.5,
+    "injury": 0
+  },
+  {
+    "firstName": "Amanuel",
+    "lastName": "Gebremichael",
+    "price": 12.6,
+    "rating": 8.7,
+    "position": "Right Winger",
+    "photo": "player-10.jpg",
+    "point": 8.8,
+    "injury": 0
+  }
+]
