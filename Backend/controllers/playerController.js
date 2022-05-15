@@ -114,6 +114,7 @@ exports.getPlayerStatus = catchAsync(async (req, res, next) => {
 });
 
 //displayPlayers
+
 const displayPlayers = (pos) =>
   catchAsync(async (req, res, next) => {
     const doc = await Player.aggregate([
@@ -124,7 +125,12 @@ const displayPlayers = (pos) =>
         $sort: { price: -1 },
       },
       {
-        $project: { price: 1, point: 1, firstName: 1 },
+        $addFields: {
+          totalPoint: { $sum: '$gameWeek.point' },
+        },
+      },
+      {
+        $project: { price: 1, totalPoint: 1, firstName: 1, club: 1 },
       },
     ]);
     res.status(200).json({
