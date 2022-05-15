@@ -26,7 +26,7 @@ class Fantasy extends StatelessWidget {
           // accentColor: Colors.deepOrange,
           fontFamily: 'Lato',
         ),
-        home: Login(),
+        home: LoginPage(),
       ),
     );
   }

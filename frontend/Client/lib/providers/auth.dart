@@ -1,8 +1,8 @@
 import 'dart:convert';
 // import 'package:dio/dio.dart';
+// ignore: import_of_legacy_library_into_null_safe
 
 import 'package:flutter/widgets.dart';
-// ignore: import_of_legacy_library_into_null_safe
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 
@@ -19,7 +19,7 @@ class Auth with ChangeNotifier {
   ) async {
     // return _authenticate(email, password, 'signup');
 
-    const url = 'http://10.2.83.33:3000/api/v1/users/signup';
+    const url = 'http://192.168.137.44:3000/api/v1/users/signup';
     final response = await http.post(Uri.parse(url),
         headers: {
           'Content-Type': 'application/json',
@@ -35,11 +35,13 @@ class Auth with ChangeNotifier {
 
   Future<void> login(String email, String password) async {
     // return _authenticate(email, password, 'login');
-    const url = 'http://10.2.83.33:3000/api/v1/users/login';
+    const url = 'http://192.168.137.44:3000/api/v1/users/login';
     final response = await http.post(Uri.parse(url),
         headers: {
           'Content-Type': 'application/json',
         },
         body: jsonEncode({'email': email, 'password': password}));
+
+    print(jsonDecode(response.body));
   }
 }

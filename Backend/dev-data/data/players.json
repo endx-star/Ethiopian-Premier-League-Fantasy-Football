@@ -3,111 +3,561 @@
     "firstName": "Charles",
     "lastName": "Lukago",
     "price": 5.0,
-    "rating": 4.7,
     "position": "Goalkeeper",
     "photo": "player-0.jpg",
-    "point": 6,
-    "injury": 0
+    "club": "62592331b49d7b5d84b66463",
+    "gameWeek": [
+      {
+        "week": 1,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 2,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 3,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 4,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 5,
+        "rating": 4.6,
+        "point": 6.0
+      }
+    ]
   },
   {
     "firstName": "Salahadin ",
     "lastName": "Bargicho",
     "price": 5.6,
-    "rating": 5.7,
-    "position": "Center-back",
+    "position": "Goalkeeper",
     "photo": "player-1.jpg",
-    "point": 7.8,
-    "injury": 0
+    "club": "62592331b49d7b5d84b66463",
+    "gameWeek": [
+      {
+        "week": 1,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 2,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 3,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 4,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 5,
+        "rating": 4.6,
+        "point": 6.0
+      }
+    ]
   },
   {
     "firstName": "Mignot",
     "lastName": "Debebe",
     "price": 6.6,
-    "rating": 6.0,
-    "position": "Center-back",
+    "position": "Defender",
     "photo": "player-2.jpg",
-    "point": 7,
-    "injury": 0
+    "club": "62592331b49d7b5d84b66463",
+    "gameWeek": [
+      {
+        "week": 1,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 2,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 3,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 4,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 5,
+        "rating": 4.6,
+        "point": 6.0
+      }
+    ]
   },
   {
     "firstName": "Henok",
     "lastName": "Adugna",
     "price": 7.9,
-    "rating": 6.7,
-    "position": "Right-back",
+    "position": "Defender",
     "photo": "player-3.jpg",
-    "point": 6.5,
-    "injury": 0.25
+    "club": "62592331b49d7b5d84b66463",
+    "gameWeek": [
+      {
+        "week": 1,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 2,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 3,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 4,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 5,
+        "rating": 4.6,
+        "point": 6.0
+      }
+    ]
   },
   {
     "firstName": "Sulemn ",
     "lastName": "Hamid",
     "price": 8.6,
-    "rating": 6.7,
-    "position": "Left-back",
+    "position": "Defender",
     "photo": "player-4.jpg",
-    "point": 5.9,
-    "injury": 0
+    "club": "62592331b49d7b5d84b66463",
+    "gameWeek": [
+      {
+        "week": 1,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 2,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 3,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 4,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 5,
+        "rating": 4.6,
+        "point": 6.0
+      }
+    ]
   },
   {
     "firstName": "Berket",
     "lastName": "Wolde",
     "price": 7.6,
-    "rating": 6.3,
-    "position": "Defensive Midfield",
+    "position": "Midfielder",
     "photo": "player-5.jpg",
-    "point": 7.2,
-    "injury": 0
+    "club": "62592331b49d7b5d84b66463",
+    "gameWeek": [
+      {
+        "week": 1,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 2,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 3,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 4,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 5,
+        "rating": 4.6,
+        "point": 6.0
+      }
+    ]
   },
   {
     "firstName": "Natnael",
     "lastName": "Sherifa",
     "price": 7.9,
-    "rating": 6.9,
-    "position": "Central Midfield",
+    "position": "Midfielder",
     "photo": "player-6.jpg",
-    "point": 7,
-    "injury": 0.5
+    "club": "625923a4b49d7b5d84b66465",
+    "gameWeek": [
+      {
+        "week": 1,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 2,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 3,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 4,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 5,
+        "rating": 4.6,
+        "point": 6.0
+      }
+    ]
   },
   {
     "firstName": "Canaan",
     "lastName": "Markneh",
     "price": 8.6,
-    "rating": 7.7,
-    "position": "Attacking Midfield",
+    "position": "Midfielder",
     "photo": "player-7.jpg",
-    "point": 8,
-    "injury": 0
+    "club": "625923a4b49d7b5d84b66465",
+    "gameWeek": [
+      {
+        "week": 1,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 2,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 3,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 4,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 5,
+        "rating": 4.6,
+        "point": 6.0
+      }
+    ]
   },
 
   {
     "firstName": "Gatoch",
     "lastName": "Panom",
     "price": 9.0,
-    "rating": 8.2,
-    "position": "Defensive Midfield",
+    "position": "Forward",
     "photo": "player-8.jpg",
-    "point": 7.8,
-    "injury": 0
+    "club": "625923a4b49d7b5d84b66465",
+    "gameWeek": [
+      {
+        "week": 1,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 2,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 3,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 4,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 5,
+        "rating": 4.6,
+        "point": 6.0
+      }
+    ]
   },
   {
     "firstName": "Chernet",
     "lastName": "Gugsa",
     "price": 10.8,
-    "rating": 7.7,
-    "position": "Left Winger",
+    "position": "Forward",
     "photo": "player-9.jpg",
-    "point": 8.5,
-    "injury": 0
+    "club": "625923a4b49d7b5d84b66465",
+    "gameWeek": [
+      {
+        "week": 1,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 2,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 3,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 4,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 5,
+        "rating": 4.6,
+        "point": 6.0
+      }
+    ]
   },
   {
     "firstName": "Amanuel",
     "lastName": "Gebremichael",
     "price": 12.6,
-    "rating": 8.7,
-    "position": "Right Winger",
+    "position": "Forward",
     "photo": "player-10.jpg",
-    "point": 8.8,
-    "injury": 0
+    "club": "625923a4b49d7b5d84b66465",
+    "gameWeek": [
+      {
+        "week": 1,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 2,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 3,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 4,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 5,
+        "rating": 4.6,
+        "point": 6.0
+      }
+    ]
+  },
+  {
+    "firstName": "Abubeker",
+    "lastName": "Nasser",
+    "price": 12.6,
+    "position": "Forward",
+    "photo": "player-10.jpg",
+    "club": "625923a4b49d7b5d84b66465",
+    "gameWeek": [
+      {
+        "week": 1,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 2,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 3,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 4,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 5,
+        "rating": 4.6,
+        "point": 6.0
+      }
+    ]
+  },
+  {
+    "firstName": "Assefa",
+    "lastName": "Abebaw",
+    "price": 12.6,
+    "position": "Forward",
+    "photo": "player-10.jpg",
+    "club": "625923ccb49d7b5d84b66467",
+    "gameWeek": [
+      {
+        "week": 1,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 2,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 3,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 4,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 5,
+        "rating": 4.6,
+        "point": 6.0
+      }
+    ]
+  },
+  {
+    "firstName": "Aman",
+    "lastName": "Gebremedhn",
+    "price": 12.6,
+    "position": "Forward",
+    "photo": "player-10.jpg",
+    "club": "625923ccb49d7b5d84b66467",
+    "gameWeek": [
+      {
+        "week": 1,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 2,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 3,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 4,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 5,
+        "rating": 4.6,
+        "point": 6.0
+      }
+    ]
+  },
+  {
+    "firstName": "Gugsa",
+    "lastName": "Gebru",
+    "price": 12.6,
+    "position": "Forward",
+    "photo": "player-10.jpg",
+    "club": "625923ccb49d7b5d84b66467",
+    "gameWeek": [
+      {
+        "week": 1,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 2,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 3,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 4,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 5,
+        "rating": 4.6,
+        "point": 6.0
+      }
+    ]
+  },
+  {
+    "firstName": "Cheru",
+    "lastName": "Gebre",
+    "price": 12.6,
+    "position": "Forward",
+    "photo": "player-10.jpg",
+    "club": "625923ccb49d7b5d84b66467",
+    "gameWeek": [
+      {
+        "week": 1,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 2,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 3,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 4,
+        "rating": 4.6,
+        "point": 6.0
+      },
+      {
+        "week": 5,
+        "rating": 4.6,
+        "point": 6.0
+      }
+    ]
   }
 ]

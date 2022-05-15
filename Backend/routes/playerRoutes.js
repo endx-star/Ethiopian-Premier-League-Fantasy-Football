@@ -4,8 +4,11 @@ const playerController = require('../controllers/playerController');
 const authController = require('../controllers/authController');
 
 const router = express.Router();
-// router.param('id', playerController.checkId);
-router.route('/transfer-player').get(playerController.transferPlayer);
+router.route('/goalkeepers').get(playerController.getGoalkeepers);
+router.route('/defenders').get(playerController.getDefenders);
+router.route('/midfielders').get(playerController.getMidfielders);
+router.route('/forwards').get(playerController.getForwards);
+
 router
   .route('/top-5-players')
   .get(playerController.aliasTopPlayers, playerController.getAllPlayers);
@@ -24,7 +27,5 @@ router
     authController.restrictTo('admin'),
     playerController.deletePlayer
   );
-
-router.route('/:id/transfer-player').get(playerController.getPlayer);
 
 module.exports = router;

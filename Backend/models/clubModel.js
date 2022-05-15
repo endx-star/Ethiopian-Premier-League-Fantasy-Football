@@ -13,6 +13,10 @@ const clubSchema = new mongoose.Schema({
     type: 'string',
     required: [true, 'A club must have a kit'],
   },
+  logo: {
+    type: 'string',
+    required: [true, 'A club must have a kit'],
+  },
   shortName: {
     type: 'string',
     required: [true, 'A club must have a short name'],

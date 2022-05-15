@@ -5,14 +5,6 @@ const validator = require('validator');
 const bcrypt = require('bcryptjs');
 
 const userSchema = new mongoose.Schema({
-  firstName: {
-    type: 'string',
-    required: [true, 'Please enter your first name'],
-  },
-  lastName: {
-    type: 'string',
-    required: [true, 'Please enter your last name'],
-  },
   email: {
     type: 'string',
     required: [true, 'Please provide your email'],

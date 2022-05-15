@@ -12,7 +12,6 @@ const playerSchema = new mongoose.Schema(
       maxlength: [15, 'A player first name must be less than 10 characters'],
       minlength: [4, 'A player first name must be greater than 4 characters'],
       validate: [validator.isAlpha, 'A playe name must be only characters'],
-      unique: true,
     },
     lastName: {
       type: String,
@@ -20,40 +19,12 @@ const playerSchema = new mongoose.Schema(
       trim: true,
       maxlength: [15, 'A player last name must be less than 10 characters'],
       minlength: [4, 'A player last name must be greater than 4 characters'],
-      unique: true,
     },
-    slug: String,
     price: {
       type: Number,
       required: [true, 'A player must have a price'],
     },
-    rating: {
-      type: Number,
-      required: [true, 'A player must have a rating'],
-      min: [1, 'A player rating must be greater than 1.0'],
-      max: [10, 'A player rating must be less than 10.0'],
-      validate: {
-        validator: function (val) {
-          return val <= this.price;
-        },
-        message: 'A player rating ({VALUE}) must be less than player price',
-      },
-    },
-    form: {
-      type: Number,
-      required: [true, 'A player must have a form'],
-      min: [1, 'A player form must be greater than 1.0'],
-      max: [10, 'A player form must be less than 10.0'],
-    },
-    photo: {
-      type: String,
-      required: [true, 'A player must have a photo'],
-    },
-    club: {
-      type: mongoose.Schema.ObjectId,
-      ref: 'Club',
-    },
-
+    photo: String,
     position: {
       type: String,
       required: [true, 'A player must have a position'],
@@ -62,21 +33,18 @@ const playerSchema = new mongoose.Schema(
         values: ['Goalkeeper', 'Midfielder', 'Defender', 'Forward'],
         message: 'you entered invalid position',
       },
-      // select: false,
     },
-    point: {
-      type: Number,
-      required: [true, 'A player must have a point'],
+    club: {
+      type: mongoose.Schema.ObjectId,
+      ref: 'Club',
     },
-
-    injury: {
-      type: Number,
-      default: 0,
-    },
-    leavedPlayer: {
-      type: Boolean,
-      default: false,
-    },
+    gameWeek: [
+      {
+        week: Number,
+        rating: Number,
+        point: Number,
+      },
+    ],
   },
   {
     toJSON: { virtuals: true },
@@ -85,9 +53,14 @@ const playerSchema = new mongoose.Schema(
 );
 
 // VIRTUAL PROPERTY like conversion from day to weeks, m to km , decimal to percentage
-// playerSchema.virtual('injuryPercent').get(function () {
-//   return `${this.injury * 100}%`;
-// });
+playerSchema.virtual('totalPoint').get(function () {
+  let result = 0;
+  // eslint-disable-next-line no-plusplus
+  for (let i = 0; i < this.gameWeek.length; i++) {
+    result += this.gameWeek[i].point;
+  }
+  return result;
+});
 
 // Document middelware only works for .save() and .create()
 playerSchema.pre('save', function (next) {
@@ -106,12 +79,6 @@ playerSchema.pre(/^find/, function (next) {
   next();
 });
 
-playerSchema.post(/^find/, function (docs, next) {
-  // console.log(docs);
-  console.log(`${Date.now() - this.start} milliseconds`);
-  next();
-});
-
 // Aggregate middelware
 playerSchema.pre('aggregate', function (next) {
   // console.log(this.pipeline());
@@ -120,5 +87,4 @@ playerSchema.pre('aggregate', function (next) {
 });
 
 const Player = mongoose.model('Player', playerSchema);
-
 module.exports = Player;

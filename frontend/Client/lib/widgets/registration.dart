@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-
+import 'package:frontend/widgets/squad-selection.dart';
 import 'package:provider/provider.dart';
 import '../providers/auth.dart';
 import './login.dart';
+import './squad-selection.dart';
 
 class Signup extends StatefulWidget {
   Signup({Key? key}) : super(key: key);
@@ -23,7 +24,18 @@ class _SignupState extends State<Signup> {
   var _isLoading = false;
   final _passwordController = TextEditingController();
 
+  void squadSelection() {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (_) {
+          return const PickTeam();
+        },
+      ),
+    );
+  }
+
   Future<void> _submit() async {
+    FocusScope.of(context).unfocus();
     if (!_formKey.currentState!.validate()) {
       // Invalid!
       return;
@@ -44,6 +56,7 @@ class _SignupState extends State<Signup> {
     setState(() {
       _isLoading = false;
     });
+    squadSelection();
   }
 
   @override
@@ -52,13 +65,13 @@ class _SignupState extends State<Signup> {
       Navigator.of(context).push(
         MaterialPageRoute(
           builder: (_) {
-            return Login();
+            return LoginPage();
           },
         ),
       );
     }
 
-    final deviceSize = MediaQuery.of(context).size;
+    // final deviceSize = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
         title: const Text('Registration'),
@@ -73,9 +86,9 @@ class _SignupState extends State<Signup> {
               elevation: 8.0,
               child: Container(
                 // height: deviceSize.height,
-                height: 450,
-                constraints: const BoxConstraints(minHeight: 400),
-                width: deviceSize.width,
+                height: 550,
+                constraints: const BoxConstraints(minHeight: 450),
+                width: double.infinity,
                 padding: const EdgeInsets.all(16.0),
                 color: Colors.green.shade300,
                 child: Form(
@@ -153,7 +166,9 @@ class _SignupState extends State<Signup> {
                           const CircularProgressIndicator()
                         else
                           RaisedButton(
-                            child: const Text('SIGN UP'),
+                            child: const Text('SIGN UP',
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 20)),
                             onPressed: _submit,
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(20),
@@ -166,7 +181,7 @@ class _SignupState extends State<Signup> {
                         FlatButton(
                           child: const Text(
                             'Already have account? Login here',
-                            style: TextStyle(color: Colors.black),
+                            style: TextStyle(color: Colors.black, fontSize: 18),
                           ),
                           onPressed: _switchAuthMode,
                           padding: const EdgeInsets.symmetric(

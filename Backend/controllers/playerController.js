@@ -113,13 +113,30 @@ exports.getPlayerStatus = catchAsync(async (req, res, next) => {
   });
 });
 
-exports.transferPlayer = catchAsync(async (req, res, next) => {
-  const playerData = await Player.findById(req.params.id);
-
-  res.status(200).json({
-    status: 'success',
-    data: {
-      playerData,
-    },
+//displayPlayers
+const displayPlayers = (pos) =>
+  catchAsync(async (req, res, next) => {
+    const doc = await Player.aggregate([
+      {
+        $match: { position: pos },
+      },
+      {
+        $sort: { price: -1 },
+      },
+      {
+        $project: { price: 1, point: 1, firstName: 1 },
+      },
+    ]);
+    res.status(200).json({
+      status: 'success',
+      data: {
+        doc,
+      },
+    });
   });
-});
+
+//fetch players data
+exports.getGoalkeepers = displayPlayers('Goalkeeper');
+exports.getDefenders = displayPlayers('Defender');
+exports.getMidfielders = displayPlayers('Midfielder');
+exports.getForwards = displayPlayers('Forward');

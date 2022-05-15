@@ -7,14 +7,11 @@ const virtualTeamSchema = new mongoose.Schema({
     required: [true, 'A team must have a name'],
     unique: true,
   },
-  point: {
+  totalPoint: {
     type: Number,
     default: 0.0,
   },
-  rank: Number,
-  gameWeek: Number,
-  gameWeekPoint: Number,
-  club: {
+  favoriteClub: {
     type: mongoose.Schema.ObjectId,
     ref: 'Club',
   },
@@ -28,9 +25,11 @@ const virtualTeamSchema = new mongoose.Schema({
       ref: 'Player',
     },
   ],
-  // favorite club, kit, shortName
-  // bank
-  //firstName,price,point, position
+});
+
+virtualTeamSchema.pre(/^find/, function (next) {
+  this.populate('user').populate('player');
+  next();
 });
 
 const VirtualTeam = mongoose.model('VirtualTeam', virtualTeamSchema);
