@@ -40,10 +40,6 @@ const userSchema = new mongoose.Schema({
     default: true,
     select: false,
   },
-  bank: {
-    type: Number,
-    default: 100.0,
-  },
 });
 
 userSchema.pre('save', async function (next) {

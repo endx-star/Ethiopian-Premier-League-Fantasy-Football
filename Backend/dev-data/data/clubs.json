@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Kedus St Goerge",
+    "jersey": "george.png",
+    "logo": "george.jpg ",
+    "shortName": "st.Goerge "
+  },
+  {
+    "name": "Fasil Kenema",
+    "jersey": "fasil.png",
+    "logo": "fasil.jpg ",
+    "shortName": "FSK "
+  },
+  {
+    "name": "Welayta Dicha",
+    "jersey": "wolayta.png",
+    "logo": "wolayta.jpg ",
+    "shortName": "WTD "
+  },
+  {
+    "name": "Hawassa Ketema",
+    "jersey": "hawassa.png",
+    "logo": "hawassa.jpg ",
+    "shortName": "HWK "
+  },
+  {
+    "name": "Sidama Buna",
+    "jersey": "sidama buna.png",
+    "logo": "sidama.jpg",
+    "shortName": "SDB "
+  },
+  {
+    "name": "Ethiopia Bunna",
+    "jersey": "buna.png",
+    "logo": "buna.jpg ",
+    "shortName": "Buna "
+  },
+  {
+    "name": "Hadiya Hosaena",
+    "jersey": "hossaina.png",
+    "logo": " hossaina.jpg",
+    "shortName": "HDH "
+  },
+  {
+    "name": "Mekelakeya",
+    "jersey": "hossaina.png",
+    "logo": "mekelakeya.jpg ",
+    "shortName": "MKY "
+  },
+  {
+    "name": "Arba Minch Kenema",
+    "jersey": "arbaMinch.png",
+    "logo": "arbaMinch.jpg ",
+    "shortName": "AMK "
+  },
+  {
+    "name": "Bahardar kenema",
+    "jersey": "bahirDar.png",
+    "logo": "bahirDar.jpg ",
+    "shortName": "BDK "
+  },
+  {
+    "name": "Wolkite Ketema",
+    "jersey": "wolkite.png",
+    "logo": "wolkite.jpg ",
+    "shortName": "WTK "
+  },
+  {
+    "name": "Dire Dawa Kenema",
+    "jersey": "dire.png",
+    "logo": "dire.jpg",
+    "shortName": "DDK "
+  },
+  {
+    "name": "Adama Ketema",
+    "jersey": "adama.png",
+    "logo": " adama.jpg",
+    "shortName": "ADK "
+  },
+  {
+    "name": "Addis Abeba Ketema",
+    "jersey": "addis.png",
+    "logo": " addis.jpg",
+    "shortName": "AAK "
+  },
+  {
+    "name": "Sebeta City",
+    "jersey": "sebeta.png",
+    "logo": "sebeta.jpg ",
+    "shortName": "STC "
+  },
+  {
+    "name": "Jimma Aba Jifar",
+    "jersey": "jimma.png",
+    "logo": " jimma.jpg",
+    "shortName": "JMAJ "
+  }
+]

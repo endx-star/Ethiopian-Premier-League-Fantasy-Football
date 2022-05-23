@@ -1,13 +1,15 @@
 /* eslint-disable prettier/prettier */
 const express = require('express');
 const teamController = require('../controllers/teamController');
+// const authController = require('../controllers/authController');
 
 const router = express.Router();
+
+//only logged in users can access the following routes
+// router.use(authController.protect);
+
 router.route('/').get(teamController.getAllTeams);
-
-router.route('/squad-selection').post(teamController.squadSelection);
-
+router.route('/create-new-team').post(teamController.createNewTeam);
 router.route('/:id').get(teamController.myTeam);
-router.route('/:id/transfer-player/:id').patch(teamController.transferPlayer);
 
 module.exports = router;

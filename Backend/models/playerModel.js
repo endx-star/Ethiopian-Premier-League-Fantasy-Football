@@ -1,24 +1,20 @@
 /* eslint-disable prettier/prettier */
 const mongoose = require('mongoose');
-const slugify = require('slugify');
-const validator = require('validator');
+// const validator = require('validator');
 
 const playerSchema = new mongoose.Schema(
   {
-    firstName: {
-      type: String,
-      required: [true, 'A player must have a first name'],
-      trim: true,
-      maxlength: [15, 'A player first name must be less than 10 characters'],
-      minlength: [4, 'A player first name must be greater than 4 characters'],
-      validate: [validator.isAlpha, 'A playe name must be only characters'],
+    clubId: {
+      type: mongoose.Schema.ObjectId,
+      ref: 'Club',
     },
-    lastName: {
+    name: {
       type: String,
-      required: [true, 'A player must have a last name'],
-      trim: true,
-      maxlength: [15, 'A player last name must be less than 10 characters'],
-      minlength: [4, 'A player last name must be greater than 4 characters'],
+      required: [true, 'A player must have name'],
+      // trim: true,
+      // maxlength: [15, 'A player first name must be less than 10 characters'],
+      // minlength: [4, 'A player first name must be greater than 4 characters'],
+      // validate: [validator.isAlpha, 'A playe name must be only characters'],
     },
     price: {
       type: Number,
@@ -30,19 +26,27 @@ const playerSchema = new mongoose.Schema(
       required: [true, 'A player must have a position'],
       trim: true,
       enum: {
-        values: ['Goalkeeper', 'Midfielder', 'Defender', 'Forward'],
+        values: ['Goalkeeper', 'Midfielder', 'Defender', 'Striker'],
         message: 'you entered invalid position',
       },
-    },
-    club: {
-      type: mongoose.Schema.ObjectId,
-      ref: 'Club',
     },
     gameWeek: [
       {
         week: Number,
-        rating: Number,
-        point: Number,
+        rating: {
+          type: Number,
+          default: 0.0,
+        },
+        status: [
+          {
+            type: String,
+            default: [],
+          },
+        ],
+        point: {
+          type: Number,
+          default: 0,
+        },
       },
     ],
   },
@@ -52,39 +56,61 @@ const playerSchema = new mongoose.Schema(
   }
 );
 
-// VIRTUAL PROPERTY like conversion from day to weeks, m to km , decimal to percentage
-playerSchema.virtual('totalPoint').get(function () {
-  let result = 0;
-  // eslint-disable-next-line no-plusplus
-  for (let i = 0; i < this.gameWeek.length; i++) {
-    result += this.gameWeek[i].point;
-  }
-  return result;
-});
-
-// Document middelware only works for .save() and .create()
+// Document middelware only works for .save() and .create()'
 playerSchema.pre('save', function (next) {
-  const fullName = `${this.firstName} ${this.lastName}`;
-  this.slug = slugify(fullName, {
-    lower: true,
-    replacement: '-',
-  });
+  let i = 0;
+  while (i < this.gameWeek.length) {
+    if (this.gameWeek[i].status.length === 0) {
+      this.gameWeek[i].point = 0;
+    } else if (this.position === 'Goalkeeper') {
+      if (this.gameWeek[i].status.includes('clean sheet')) {
+        this.gameWeek[i].point += 5;
+      }
+      if (this.gameWeek[i].status.includes('assist'))
+        this.gameWeek[i].point += 3;
+      if (this.gameWeek[i].status.includes('score goal'))
+        this.gameWeek[i].point += 2;
+    } else if (this.position === 'Defender') {
+      if (this.gameWeek[i].status.includes('clean sheet'))
+        this.gameWeek[i].point += 4;
+      if (this.gameWeek[i].status.includes('assist'))
+        this.gameWeek[i].point += 3;
+      if (this.gameWeek[i].status.includes('score goal'))
+        this.gameWeek[i].point += 6;
+    } else if (this.position === 'Midfielder') {
+      if (this.gameWeek[i].status.includes('clean sheet'))
+        this.gameWeek[i].point += 1;
+      if (this.gameWeek[i].status.includes('assist'))
+        this.gameWeek[i].point += 3;
+      if (this.gameWeek[i].status.includes('score goal'))
+        this.gameWeek[i].point += 5;
+    } else if (this.position === 'Striker') {
+      if (this.gameWeek[i].status.includes('assist'))
+        this.gameWeek[i].point += 3;
+      if (this.gameWeek[i].status.includes('score goal'))
+        this.gameWeek[i].point += 4;
+    }
+    if (this.gameWeek[i].status.includes('missing penalty'))
+      this.gameWeek[i].point -= 2;
+    if (this.gameWeek[i].status.includes('yellow card'))
+      this.gameWeek[i].point -= 1;
+    if (this.gameWeek[i].status.includes('red card'))
+      this.gameWeek[i].point -= 3;
+    if (this.gameWeek[i].status.includes('own goal'))
+      this.gameWeek[i].point -= 2;
+    i += 1;
+  }
   next();
 });
 
 // Query middelware
-playerSchema.pre(/^find/, function (next) {
-  this.find({ leavedPlayer: { $ne: true } });
-  this.start = Date.now();
-  next();
-});
 
 // Aggregate middelware
-playerSchema.pre('aggregate', function (next) {
-  // console.log(this.pipeline());
-  this.pipeline().unshift({ $match: { leavedPlayer: { $ne: true } } });
-  next();
-});
+
+// playerSchema.pre('aggregate', function (next) {
+//   console.log(this.pipeline());
+//   next();
+// });
 
 const Player = mongoose.model('Player', playerSchema);
 module.exports = Player;

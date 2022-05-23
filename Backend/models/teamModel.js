@@ -1,6 +1,8 @@
 /* eslint-disable prettier/prettier */
 const mongoose = require('mongoose');
 
+const Player = require('./playerModel');
+
 const virtualTeamSchema = new mongoose.Schema({
   name: {
     type: 'string',
@@ -11,6 +13,10 @@ const virtualTeamSchema = new mongoose.Schema({
     type: Number,
     default: 0.0,
   },
+  bank: {
+    type: Number,
+    default: 100.0,
+  },
   favoriteClub: {
     type: mongoose.Schema.ObjectId,
     ref: 'Club',
@@ -19,16 +25,19 @@ const virtualTeamSchema = new mongoose.Schema({
     type: mongoose.Schema.ObjectId,
     ref: 'User',
   },
-  player: [
-    {
-      type: mongoose.Schema.ObjectId,
-      ref: 'Player',
-    },
-  ],
+  players: Array,
+});
+
+virtualTeamSchema.pre('save', async function (next) {
+  const playersPromises = this.players.map(
+    async (id) => await Player.findById(id)
+  );
+  this.players = await Promise.all(playersPromises);
+  next();
 });
 
 virtualTeamSchema.pre(/^find/, function (next) {
-  this.populate('user').populate('player');
+  this.populate('user').populate('favoriteClub');
   next();
 });
 

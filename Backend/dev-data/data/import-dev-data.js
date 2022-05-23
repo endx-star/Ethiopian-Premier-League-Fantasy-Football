@@ -3,7 +3,9 @@ const fs = require('fs');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const Player = require('../../models/playerModel');
+// const Club = require('../../models/clubModel');
 
+/************* Import Players Data ***************/
 dotenv.config({ path: './config.env' });
 
 const DB = process.env.DATABASE.replace(
@@ -55,3 +57,55 @@ if (process.argv[2] === '--import') {
 } else if (process.argv[2] === '--delete') {
   deleteData();
 }
+
+/******************Import Clubs data *************************/
+
+// dotenv.config({ path: './config.env' });
+
+// const DB = process.env.DATABASE.replace(
+//   '<PASSWORD>',
+//   process.env.DATABASE_PASSWORD
+// );
+
+// mongoose
+//   // .connect(process.env.DATABASE_LOCAL, {
+//   .connect(DB, {
+//     useNewUrlParser: true,
+//     useCreateIndex: true,
+//     useUnifiedTopology: true,
+//     useFindAndModify: false,
+//   })
+//   .then(() => {
+//     console.log('Database Connection Successful');
+//   });
+// const clubs = JSON.parse(fs.readFileSync(`${__dirname}/clubs.json`, 'utf-8'));
+
+// // console.log(clubs);
+
+// //IMPORT ALL DATA
+// const importData = async () => {
+//   try {
+//     await Club.create(clubs);
+//     console.log('Data Successfully loaded');
+//   } catch (err) {
+//     console.log(err);
+//   }
+//   process.exit();
+// };
+
+// //DELETE ALL DATA
+// const deleteData = async () => {
+//   try {
+//     await Club.deleteMany();
+//     console.log('Data Successfully deleted');
+//   } catch (err) {
+//     console.log(err);
+//   }
+//   process.exit();
+// };
+
+// if (process.argv[2] === '--import') {
+//   importData();
+// } else if (process.argv[2] === '--delete') {
+//   deleteData();
+// }

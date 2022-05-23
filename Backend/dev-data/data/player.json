@@ -1,0 +1,2582 @@
+[
+  {
+    "clubId": "62860127a4b61b2298cc6553",
+    "players": [
+      {
+        "name": "C. Lukwago",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " ",
+        "gameWeeks": [
+          {
+            "week": 1,
+            "rating": 4.5,
+            "status": [
+              "score goal",
+              "assist",
+              "own goal",
+              "clean sheet",
+              "yellow card",
+              "red card",
+              "missing penalty"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "B. Negash",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Yohannes",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Henok Adugna",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Debebe",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Hamid",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Wolde",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Debebe",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Y. Hassen",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Demu",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Terfa",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Bargicho",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Getachew",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "G. Panom",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "H. Sherefa",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Canaan Markneh",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "N. Zeleke",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Tafese",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Samuel",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Yonas",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "I. Ouro-Agoro",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Gebremichael",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Frimpong",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Yalew",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "C. Gugsa",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Addis Gidey",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Assefa",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Bulcha Shura",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Araya",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Teshome",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      }
+    ]
+  },
+  {
+    "clubId": "62860127a4b61b2298cc6554",
+    "players": [
+      {
+        "name": "Y. Kidane",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "N. Samake",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Getenet",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Tamene",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Yared Bayeh",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Amsalu Tilahun",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "K. Coulibaly",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Fitsum",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Gebeyehu",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Yohannes",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Zemede",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "H. Yitbarek",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Gugsa",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Dagnachew",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "O. Afolabi",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Y. Endeshaw",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "H. Tekeste",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Mekengo",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Meleyo",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Hassen",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "K. Beyene",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "N. Masresha",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Abel Eyasu",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Desta",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Kassim",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Yigezaw",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Fikadu",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "F. Alemu",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "F. Marew",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      }
+    ]
+  },
+  {
+    "clubId": "62860127a4b61b2298cc6555",
+    "players": [
+      {
+        "name": "T. Meried",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "W. Ashenafi",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Genetu",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Wolde",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Debebe",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Z. Tuji",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Badeg",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Gugsa",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Indris Seid",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "H. Nigussie",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Y. Yarfo",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Addis Hintsa",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Nicole",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "N. Gebreselassie",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Bogale",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Achiso",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+
+      {
+        "name": "W. Wubshet",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "W. Woldie",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Mengistu",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Wondimu",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "K. Zelalem",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Fisseha",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Fikre",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Z. Abate",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "I. Azuka",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Y. Elias",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "K. Zelalem",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      }
+    ]
+  },
+  {
+    "clubId": "62860127a4b61b2298cc6556",
+    "players": [
+      {
+        "name": "M. Muntari",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Ginbo",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Tefera",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "L. Lartey",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Bekele",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Derbie",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Kalonji",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Yohanis",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Tesfaye",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Dimamu",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "K. Zenebe",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "W. Maereg",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "G. Bekalu",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Birhane",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Y. Segebo",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "C. Awush",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "H. Dilbi",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Kemal",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Kemal",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "H. Mekonnen",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "C. Awush",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Belay",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Tafesse",
+        "position": "Striker",
+        "photo": "default.png"
+      },
+      {
+        "name": "B. Beyene",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Ashamo",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Hefamo",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Elias",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Elias",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      }
+    ]
+  },
+  {
+    "clubId": "62860127a4b61b2298cc6557",
+    "players": [
+      {
+        "name": "B. Shanko",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Degefu",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "F. Wodessa",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Y. Mohammoed",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Mena",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "G. Gatkoch",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Habte",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Kebede",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "G. Bekele",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Endale",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Kassa",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Tonjo",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Tefera",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Mesfin",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "W. Solomon",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Taffese",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Ashamo",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Taffese",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "G. Assefa",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Y. Bogale",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "F. Kahata",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "H. Gezahegn",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Ashamo",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Mulgeta",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Saladin Said",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Dulla",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      }
+    ]
+  },
+  {
+    "clubId": "62860127a4b61b2298cc6558",
+    "players": [
+      {
+        "name": "A. Mamo",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Esrael Mesfin",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A.kidanu",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Abebe Tilahun",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "H. Gebretensay",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Tesfaye Bekele",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Y. Fereja",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "W. Dereje",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "R. Teklemichael",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Gezahegn Dessalegn",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Natnael Berhe",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Tonjo",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Amanuel Yohannes",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "W. Solomon",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "F. Tewoldebrhan",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Tafesse Solomon",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Kebede",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Mikiyas Mekonen",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "R. Ahmed",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Tesfaye",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Endale",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Seifu",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Nassir",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Endale Debalke",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Temesgen Gebrekidan",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Shimelis",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      }
+    ]
+  },
+  {
+    "clubId": "62860127a4b61b2298cc6559",
+    "players": [
+      {
+        "name": "N. Mensah",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Ayano",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Y. Bekele",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "F. Kassa",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Bekele",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "H. Arficho",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "K. Wubishet",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "G. Bekele",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "F. Kasa",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Girma",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Wolde",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Ataro",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Tilahun",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Yohannes",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Zekarias",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "K. Beyene",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "I. Tamiru",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Aklilu",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "K. Yared",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "H. Taddese",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Gezahegn",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Girma",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. George",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "O. Oukri",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Birhanu",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Abayneh",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      }
+    ]
+  },
+  {
+    "clubId": "62860127a4b61b2298cc655d",
+    "players": [
+      {
+        "name": "S. Gbohouo",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "R. Odongkara",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Yegile",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "R. Yesuf",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "W. Adams",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Simretu",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Negash",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Nigussie",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Butako Abebaw",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Melaku",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Y. Shibabaw",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Nassir",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "H. Shewalem",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Y. Berta",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Woldegiorgis",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Adane Girma",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Al-Mehadi",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Fasil",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "F. Solomon",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Birhanu",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "G. Kebede",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Hussien",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "I. Eshetu",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Sani",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Zewdu",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "C. Teshita",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      }
+    ]
+  },
+  {
+    "clubId": "62860127a4b61b2298cc655a",
+    "players": [
+      {
+        "name": "C. Ashietey",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "J. Delil",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "I. Hussien",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "L. Getachew",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Adane",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Worku",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Lankamo",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "K. Lam",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Belay",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "G. Hagos",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Mamo",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "G. Regassa",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Desalegn",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Tessema",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Kassa",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Belay",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Semu",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Atula",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "I. Eshetu",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Sylla",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Hailu",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Cham",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "G. Belguda",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Okutu",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      }
+    ]
+  },
+  {
+    "clubId": "62860127a4b61b2298cc655c",
+    "players": [
+      {
+        "name": "A. Nuri",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "N. Belsti",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Y. Mequanint",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Awol",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Wodessa",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Nikiema",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Agegnehu",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "F. Jemal",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Tegegn",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "F. Fithalew",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Menaf Awel",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "F. Alemu",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Tilahun",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Azene",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Tigabu",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Temesgen",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "H. Worku",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Girma",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Zoko",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "G. Anemut",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "H. Ketemaw",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Yalew",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "G. Dissasa",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Gezahegn",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "K. Tesfaye",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Suliman",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Z. Ferede",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Y. Ayele",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      }
+    ]
+  },
+  {
+    "clubId": "62860127a4b61b2298cc655f",
+    "players": [
+      {
+        "name": "J. Tassew",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Camara",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Kibatu",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Gobena",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Simretu",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Solomon",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "J. Yakob",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Tesfaye",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Tafesse",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "G. Bekalu",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Y. Yohannes",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Solo",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Mamo",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Desalegn",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "J. Ahmed",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Abenezer",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Z. Kebede",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Jibril",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Biniam",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Mengesha",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Abera",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Nesru",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "J. Abdisa",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Hottesa",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Sisay",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "F. Chala",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "C. Firaol",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "N. Nuri",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      }
+    ]
+  },
+  {
+    "clubId": "62860127a4b61b2298cc655b",
+    "players": [
+      {
+        "name": "Y. Tegegn",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Merdokios",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "W. Abebe",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Fida",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Teshome",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Firew",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Okoro",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Ochieng",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Adane",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Bekele",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Shamil",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Tegegn",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Mesfin",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Daniel",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Manyazewal",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Kapaito",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Abera",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Hussien",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "H. Kemal",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Elias",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Asnake",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Elias",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      }
+    ]
+  },
+  {
+    "clubId": "62860127a4b61b2298cc655e",
+    "players": [
+      {
+        "name": "F. Getahun",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Allo",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Alemu",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Dana",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "H. Isaias",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Nafiu",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Kassahum",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Gebremikael",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Bekele",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Y. Buser",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "W. Dereje",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Sidibe",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Mesoud",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Kalbore",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Hailu",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Kebede",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Asebe",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Kassahun",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Mullu",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Getachew",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Aydagn",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Musa",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "G. Mebrate",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "H. Ayele",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Mubarek",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Zerihun",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      }
+    ]
+  },
+  {
+    "clubId": "62860127a4b61b2298cc6560",
+    "players": [
+      {
+        "name": "D. Teshome",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+
+      {
+        "name": "W. Geremew",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "W. Adugna",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Petros",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Asferi",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "R. Girma",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Z. Anshebo",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "L. Taddese",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "I. Legesse",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Y. Hassen",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Tesfaye",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Richmond Adongo",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Ch. Ribbanu",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Negsh",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Ahmed",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Seifu",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Mamo",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Girma",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Gabriel Shuaib",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "F. Tilahun",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Kebede",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "F. Gebremichael",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Getachew",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Zekarias",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. John",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Mierab",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      }
+    ]
+  },
+  {
+    "clubId": "62860127a4b61b2298cc6562",
+    "players": [
+      {
+        "name": "T. Dagne",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "L. Negash",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "W. Markos",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Melaku",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "S. Tegegn",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Moges",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "I. Legesse",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Nassir",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "R. Worku",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Nassir",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Yabgeta",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Mesoud",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Nassir",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "E. Alemayehu",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Y. Mulugeta",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Dawit Estifanos",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Mulatu",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Girma",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "R. Mala",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Abdella",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Fikadu",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Abayneh Belay",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Yohannes Bezabhe",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      }
+    ]
+  },
+  {
+    "clubId": "62860127a4b61b2298cc6561",
+    "players": [
+      {
+        "name": "M. Allo",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "L. Birhanu",
+        "position": "Goalkeeper",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Dana",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Saliso Samuel",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Tesfaye",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "G. Hailemaryam",
+        "position": "Defender",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "H. Adefres",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "M. Mesoud",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Girma",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "N. Kirizestom",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "A. Nadew",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "Z. Isaias",
+        "position": "Midfielder",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Nsibambi",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "O. Mawuli",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "D. Shubisa",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "N. Theophilus",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Appiah",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "T. Abdulhafiz",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      },
+      {
+        "name": "B. Assefa",
+        "position": "Striker",
+        "photo": "default.png",
+        "price": " "
+      }
+    ]
+  }
+]

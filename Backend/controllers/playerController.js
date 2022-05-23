@@ -114,7 +114,6 @@ exports.getPlayerStatus = catchAsync(async (req, res, next) => {
 });
 
 //displayPlayers
-
 const displayPlayers = (pos) =>
   catchAsync(async (req, res, next) => {
     const doc = await Player.aggregate([
@@ -130,7 +129,15 @@ const displayPlayers = (pos) =>
         },
       },
       {
-        $project: { price: 1, totalPoint: 1, firstName: 1, club: 1 },
+        $project: { price: 1, totalPoint: 1, name: 1, clubId: 1 },
+      },
+      {
+        $lookup: {
+          from: 'clubs',
+          localField: 'clubId',
+          foreignField: '_id',
+          as: 'club',
+        },
       },
     ]);
     res.status(200).json({
@@ -145,4 +152,4 @@ const displayPlayers = (pos) =>
 exports.getGoalkeepers = displayPlayers('Goalkeeper');
 exports.getDefenders = displayPlayers('Defender');
 exports.getMidfielders = displayPlayers('Midfielder');
-exports.getForwards = displayPlayers('Forward');
+exports.getForwards = displayPlayers('Striker');

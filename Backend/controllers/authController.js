@@ -35,7 +35,6 @@ const createSendToken = (user, statusCode, res) => {
 };
 
 exports.signup = catchAsync(async (req, res, next) => {
-  // for preventing user to add role
   // const newUser = await User.create({
   //   firstName: req.body.firstName,
   //   lastName: req.body.lastName,
@@ -44,7 +43,6 @@ exports.signup = catchAsync(async (req, res, next) => {
   //   passwordConfirm: req.body.passwordConfirm
   // });
   const newUser = await User.create(req.body);
-  console.log(req.body);
   createSendToken(newUser, 201, res);
 });
 

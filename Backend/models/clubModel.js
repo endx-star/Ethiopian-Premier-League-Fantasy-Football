@@ -1,21 +1,21 @@
 /* eslint-disable prettier/prettier */
 const mongoose = require('mongoose');
-const validator = require('validator');
+// const validator = require('validator');
 
 const clubSchema = new mongoose.Schema({
   name: {
     type: 'string',
     required: [true, 'A club must have a name'],
     unique: true,
-    validate: [validator.isAlpha, 'please provide a valid club name'],
+    // validate: [validator.isAlpha, 'please provide a valid club name'],
   },
-  kit: {
+  jersey: {
     type: 'string',
-    required: [true, 'A club must have a kit'],
+    required: [true, 'A club must have a jersey'],
   },
   logo: {
     type: 'string',
-    required: [true, 'A club must have a kit'],
+    required: [true, 'A club must have a logo'],
   },
   shortName: {
     type: 'string',
