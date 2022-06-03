@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 const mongoose = require('mongoose');
-const Player = require('./playerModel');
+// const Player = require('./playerModel');
 
 const { ObjectId } = mongoose.Schema;
 
@@ -29,20 +29,14 @@ const virtualTeamSchema = new mongoose.Schema({
     type: Number,
     default: 100.0,
   },
-  favoriteClub: {
-    type: mongoose.Schema.ObjectId,
-    ref: 'Club',
-  },
-  user: {
-    type: mongoose.Schema.ObjectId,
-    ref: 'User',
-  },
+  favoriteClub: String,
+  user: String,
   team: {
     players: [TeamPlayer],
-    // keepers: [TeamPlayer],
-    // defenders: [TeamPlayer],
-    // midfielders: [TeamPlayer],
-    // forwards: [TeamPlayer],
+    //   keepers: [TeamPlayer],
+    //   defenders: [TeamPlayer],
+    //   midfielders: [TeamPlayer],
+    //   forwards: [TeamPlayer],
   },
 });
 

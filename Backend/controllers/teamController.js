@@ -1,9 +1,10 @@
 /* eslint-disable prettier/prettier */
 const VirtualTeam = require('../models/teamModel');
 const catchAsync = require('../utils/catchAsync');
+const factory = require('./handlerFactory');
 
 exports.createNewTeam = catchAsync(async (req, res, next) => {
-  if (!req.body.user) req.body.user = req.user.id;
+  // if (!req.body.user) req.body.user = req.user.id;
   const newTeam = await VirtualTeam.create(req.body);
   res.status(201).json({
     status: 'success',
@@ -36,14 +37,13 @@ exports.myTeam = catchAsync(async (req, res, next) => {
 //   const gameWeekPoint = await VirtualTeam.aggregate([]);
 // });
 
-exports.transferPlayer = catchAsync(async (req, res, next) => {
-  const player = await VirtualTeam.findById(
-    req.params.id
-  ).players.findByIdAndUpdate(req.params.id);
-  res.status(200).json({
-    status: 'success',
-    data: {
-      player,
-    },
-  });
-});
+exports.transferPlayer = factory.updateOne(VirtualTeam);
+// catchAsync(async (req, res, next) => {
+//   const player = await VirtualTeam.findByIdAndUpdate(req.params.id);
+//   res.status(200).json({
+//     status: 'success',
+//     data: {
+//       player,
+//     },
+//   });
+// });
