@@ -1,0 +1,124 @@
+[
+  {
+    "week": 1,
+    "games": [
+      {
+        "clubOneName": "St. George",
+        "clubTwoName": "Hawassa ketema",
+        "clubOneLogo": "https://i7.putstuffonline.com/YYx3ER5e1nw/putstuffonline.jpg",
+        "clubTwoLogo": "https://i7.putstuffonline.com/bq7EVI53l6c/putstuffonline.jpg",
+        "score": "3 - 0"
+      },
+      {
+        "clubOneName": "Wolkite City",
+        "clubTwoName": "Woliatta Dicha",
+        "clubOneLogo": "https://i7.putstuffonline.com/aG4XkkVgHeU/putstuffonline.jpg",
+        "clubTwoLogo": "https://i7.putstuffonline.com/57lPvqqeDx8/putstuffonline.jpg",
+        "score": "2 - 2"
+      },
+      {
+        "clubOneName": "Dire Dawa City",
+        "clubTwoName": "Bahir Dar Kenema",
+        "clubOneLogo": "https://i7.putstuffonline.com/7Zcub7GP1og/putstuffonline.jpg",
+        "clubTwoLogo": "https://i7.putstuffonline.com/a00P677IJqE/putstuffonline.jpg",
+        "score": "0 - 0"
+      },
+      {
+        "clubOneName": "Adama City",
+        "clubTwoName": "Fasil City",
+        "clubOneLogo": "https://i7.putstuffonline.com/EeQPa7ofwcI/putstuffonline.jpg",
+        "clubTwoLogo": "https://i7.putstuffonline.com/aMyzmvY0wCc/putstuffonline.jpg",
+        "score": "0 - 0"
+      },
+      {
+        "clubOneName": "Hadiya Hossana",
+        "clubTwoName": "Jimma Aba Jifar",
+        "clubOneLogo": "https://i7.putstuffonline.com/zwZLcxiRV9I/putstuffonline.jpg",
+        "clubTwoLogo": "https://i7.putstuffonline.com/AFlvKUFudv0/putstuffonline.jpg",
+        "score": "0 - 1"
+      },
+      {
+        "clubOneName": "Arba Minch",
+        "clubTwoName": "Addis Ababa City",
+        "clubOneLogo": "https://i7.putstuffonline.com/hQMBohb4AQ4/putstuffonline.jpg",
+        "clubTwoLogo": "https://i7.putstuffonline.com/R1HsGJzXYGQ/putstuffonline.jpg",
+        "score": "1 - 2"
+      },
+      {
+        "clubOneName": "Sidama Coffee",
+        "clubTwoName": "Sebeta City",
+        "clubOneLogo": "https://i7.putstuffonline.com/SEQSQ1SkPYI/putstuffonline.jpg",
+        "clubTwoLogo": "https://i7.putstuffonline.com/BNmdvr84RPM/putstuffonline.jpg",
+        "score": "2 - 0"
+      },
+      {
+        "clubOneName": "Ethiopian Coffee",
+        "clubTwoName": "Mekelakeya",
+        "clubOneLogo": "https://i7.putstuffonline.com/rgGn7aRSkRc/putstuffonline.jpg",
+        "clubTwoLogo": "https://i7.putstuffonline.com/EfDn4JZdfT8/putstuffonline.jpg",
+        "score": "0 - 1"
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "games": [
+      {
+        "clubOneName": "Ethiopian Coffee",
+        "clubTwoName": "Addis Ababa City",
+        "clubOneLogo": "https://i7.putstuffonline.com/rgGn7aRSkRc/putstuffonline.jpg",
+        "clubTwoLogo": "https://i7.putstuffonline.com/R1HsGJzXYGQ/putstuffonline.jpg",
+        "startTime": "10:00"
+      },
+      {
+        "clubOneName": "Arba Minch",
+        "clubTwoName": "Mekelakeya",
+        "clubOneLogo": "https://i7.putstuffonline.com/hQMBohb4AQ4/putstuffonline.jpg",
+        "clubTwoLogo": "https://i7.putstuffonline.com/EfDn4JZdfT8/putstuffonline.jpg",
+        "startTime": "10:30"
+      },
+      {
+        "clubOneName": "Sidama Coffee",
+        "clubTwoName": "Hadiya Hossana",
+        "clubOneLogo": "https://i7.putstuffonline.com/SEQSQ1SkPYI/putstuffonline.jpg",
+        "clubTwoLogo": "https://i7.putstuffonline.com/zwZLcxiRV9I/putstuffonline.jpg",
+        "startTime": "9:00"
+      },
+      {
+        "clubOneName": "Sebeta City",
+        "clubTwoName": "Jimma Aba Jifar",
+        "clubOneLogo": "https://i7.putstuffonline.com/BNmdvr84RPM/putstuffonline.jpg",
+        "clubTwoLogo": "https://i7.putstuffonline.com/AFlvKUFudv0/putstuffonline.jpg",
+        "startTime": "12:00"
+      },
+      {
+        "clubOneName": "Fasil City",
+        "clubTwoName": "Bahir Dar Kenema",
+        "clubOneLogo": "https://i7.putstuffonline.com/aMyzmvY0wCc/putstuffonline.jpg",
+        "clubTwoLogo": "https://i7.putstuffonline.com/a00P677IJqE/putstuffonline.jpg",
+        "startTime": "8:00"
+      },
+      {
+        "clubOneName": "Adama City",
+        "clubTwoName": "Dire Dawa City",
+        "clubOneLogo": "https://i7.putstuffonline.com/EeQPa7ofwcI/putstuffonline.jpg",
+        "clubTwoLogo": "https://i7.putstuffonline.com/7Zcub7GP1og/putstuffonline.jpg",
+        "startTime": "10:15"
+      },
+      {
+        "clubOneName": "Woliatta Dicha",
+        "clubTwoName": "St. George",
+        "clubOneLogo": "https://i7.putstuffonline.com/57lPvqqeDx8/putstuffonline.jpg",
+        "clubTwoLogo": "https://i7.putstuffonline.com/YYx3ER5e1nw/putstuffonline.jpg",
+        "startTime": "9:45"
+      },
+      {
+        "clubOneName": "Hawassa ketema",
+        "clubTwoName": "Wolkite City",
+        "clubOneLogo": "https://i7.putstuffonline.com/bq7EVI53l6c/putstuffonline.jpg",
+        "clubTwoLogo": "https://i7.putstuffonline.com/aG4XkkVgHeU/putstuffonline.jpg",
+        "startTime": "11:00"
+      }
+    ]
+  }
+]

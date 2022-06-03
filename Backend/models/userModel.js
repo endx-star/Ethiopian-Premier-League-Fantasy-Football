@@ -40,6 +40,10 @@ const userSchema = new mongoose.Schema({
     default: true,
     select: false,
   },
+  teamId: {
+    type: mongoose.Schema.ObjectId,
+    ref: 'VirtualTeam',
+  },
 });
 
 userSchema.pre('save', async function (next) {

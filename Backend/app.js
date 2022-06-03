@@ -12,6 +12,8 @@ const playerRouter = require('./routes/playerRoutes');
 const userRouter = require('./routes/userRoutes');
 const clubRouter = require('./routes/clubRoutes');
 const teamRouter = require('./routes/teamRoutes');
+const highlightRouter = require('./routes/highlightRoutes');
+const fixtureRouter = require('./routes/fixtureRoutes');
 
 const app = express();
 
@@ -56,6 +58,8 @@ app.use('/api/v1/players', playerRouter);
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/clubs', clubRouter);
 app.use('/api/v1/teams', teamRouter);
+app.use('/api/v1/highlights', highlightRouter);
+app.use('/api/v1/fixtures', fixtureRouter);
 
 // Handle unhandled routes for all http methods
 app.all('*', (req, res, next) => {

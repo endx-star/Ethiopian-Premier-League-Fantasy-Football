@@ -3,7 +3,7 @@
     "clubId": "628a4bf324da9108ec920f84",
     "name": "C. Lukwago",
     "position": "Goalkeeper",
-    "photo": "default.png",
+    "photo": "lukwago.png",
     "price": 6.7,
     "gameWeek": [
       {
@@ -310,7 +310,7 @@
     "clubId": "628a4bf324da9108ec920f84",
     "name": "Canaan Markneh",
     "position": "Midfielder",
-    "photo": "default.png",
+    "photo": "canaan.png",
     "price": "6.7",
     "gameWeek": [
       {
@@ -584,7 +584,7 @@
     "clubId": "628a4bf324da9108ec920f85",
     "name": "Y. Kidane",
     "position": "Goalkeeper",
-    "photo": "default.png",
+    "photo": "kidane.png",
     "price": "5.6",
     "gameWeek": [
       {
@@ -687,7 +687,7 @@
     "clubId": "628a4bf324da9108ec920f85",
     "name": "Yared Bayeh",
     "position": "Defender",
-    "photo": "default.png",
+    "photo": "bayeh.png",
     "price": "7.4",
     "gameWeek": [
       {
@@ -858,7 +858,7 @@
     "clubId": "628a4bf324da9108ec920f85",
     "name": "D. Zemede",
     "position": "Defender",
-    "photo": "default.png",
+    "photo": "zemede.png",
     "price": "7.2",
     "gameWeek": [
       {
@@ -1576,7 +1576,7 @@
     "clubId": "628a4bf324da9108ec920f86",
     "name": "H. Nigussie",
     "position": "Midfielder",
-    "photo": "default.png",
+    "photo": "nigussie.png",
     "price": "7.1",
     "gameWeek": [
       {
@@ -1954,7 +1954,7 @@
     "clubId": "628a4bf324da9108ec920f87",
     "name": "M. Ginbo",
     "position": "Goalkeeper",
-    "photo": "default.png",
+    "photo": "ginbo.png",
     "price": "4.2",
     "gameWeek": [
       {
@@ -2467,7 +2467,7 @@
     "clubId": "628a4bf324da9108ec920f87",
     "name": "E. Ashamo",
     "position": "Striker",
-    "photo": "default.png",
+    "photo": "ashamo.png",
     "price": "9.0",
     "gameWeek": [
       {
@@ -3186,7 +3186,7 @@
     "clubId": "628a4bf324da9108ec920f89",
     "name": "Esrael Mesfin",
     "position": "Goalkeeper",
-    "photo": "default.png",
+    "photo": "esrael.png",
     "price": "6.0",
     "gameWeek": [
       {
@@ -3631,7 +3631,7 @@
     "clubId": "628a4bf324da9108ec920f89",
     "name": "A. Nassir",
     "position": "Striker",
-    "photo": "default.png",
+    "photo": "nassir.png",
     "price": "7.1",
     "gameWeek": [
       {
@@ -4280,7 +4280,7 @@
     "clubId": "628a4bf324da9108ec920f8c",
     "name": "B. Gezahegn",
     "position": "Striker",
-    "photo": "default.png",
+    "photo": "gezahegn.png",
     "price": "5.9",
     "gameWeek": [
       {
@@ -4827,7 +4827,7 @@
     "clubId": "628a4bf324da9108ec920f8d",
     "name": "Adane Girma",
     "position": "Midfielder",
-    "photo": "default.png",
+    "photo": "adane.png",
     "price": "5.8",
     "gameWeek": [
       {
@@ -5306,7 +5306,7 @@
     "clubId": "628a4bf324da9108ec920f8a",
     "name": "D. Mamo",
     "position": "Midfielder",
-    "photo": "default.png",
+    "photo": "mamo.png",
     "price": "5.6",
     "gameWeek": [
       {
@@ -5613,7 +5613,7 @@
     "clubId": "628a4bf324da9108ec920f8a",
     "name": "A. Cham",
     "position": "Striker",
-    "photo": "default.png",
+    "photo": "cham.png",
     "price": "6.7",
     "gameWeek": [
       {
@@ -6262,7 +6262,7 @@
     "clubId": "628a4bf324da9108ec920f90",
     "name": "J. Tassew",
     "position": "Goalkeeper",
-    "photo": "default.png",
+    "photo": "tassew.png",
     "price": "5.9",
     "gameWeek": [
       {
@@ -6705,7 +6705,7 @@
     "clubId": "628a4bf324da9108ec920f90",
     "name": "J. Ahmed",
     "position": "Midfielder",
-    "photo": "default.png",
+    "photo": "ahmed.png",
     "price": "5.0",
     "gameWeek": [
       {
@@ -7388,7 +7388,7 @@
     "clubId": "628a4bf324da9108ec920f8e",
     "name": "A. Hussien",
     "position": "Striker",
-    "photo": "default.png",
+    "photo": "hussien.png",
     "price": "8.1",
     "gameWeek": [
       {
@@ -7900,7 +7900,7 @@
     "clubId": "628a4bf324da9108ec920f8f",
     "name": "A. Kebede",
     "position": "Midfielder",
-    "photo": "default.png",
+    "photo": "kebede.png",
     "price": "5.2",
     "gameWeek": [
       {
@@ -8721,7 +8721,7 @@
     "clubId": "628a4bf324da9108ec920f92",
     "name": "T. Dagne",
     "position": "Goalkeeper",
-    "photo": "default.png",
+    "photo": "dagne.png",
     "price": "5.0",
     "gameWeek": [
       {
@@ -9199,7 +9199,7 @@
   {
     "name": "B. Abdella",
     "position": "Striker",
-    "photo": "default.png",
+    "photo": "abdella.png",
     "price": "7.1",
     "gameWeek": [
       {
@@ -9300,7 +9300,7 @@
     "clubId": "628a4bf324da9108ec920f92",
     "name": "Yohannes Bezabhe",
     "position": "Striker",
-    "photo": "default.png",
+    "photo": "yohannes.png",
     "price": "6.1",
     "gameWeek": [
       {
@@ -9674,7 +9674,7 @@
     "clubId": "628a4bf324da9108ec920f93",
     "name": "A. Nadew",
     "position": "Midfielder",
-    "photo": "default.png",
+    "photo": "nadew.png",
     "price": "6.7",
     "gameWeek": [
       {
