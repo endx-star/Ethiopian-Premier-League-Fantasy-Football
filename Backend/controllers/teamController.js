@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 const VirtualTeam = require('../models/teamModel');
 const catchAsync = require('../utils/catchAsync');
-const factory = require('./handlerFactory');
+// const factory = require('./handlerFactory');
 
 exports.createNewTeam = catchAsync(async (req, res, next) => {
   // if (!req.body.user) req.body.user = req.user.id;
@@ -14,17 +14,30 @@ exports.createNewTeam = catchAsync(async (req, res, next) => {
   });
 });
 
-exports.myTeam = catchAsync(async (req, res, next) => {
-  // const team = await VirtualTeam.findById(req.params.id).populate([
-  //   { path: 'team.keepers', populate: ['player'] },
-  //   { path: 'team.defenders', populate: ['player'] },
-  //   { path: 'team.midFielders', populate: ['player'] },
-  //   { path: 'team.forwards', populate: ['player'] },
-  // ]);
+exports.getAllTeams = catchAsync(async (req, res, next) => {
+  console.log(req.query);
+  const teams = await VirtualTeam.find(req.query);
+  // SEND RESPONSE
+  res.status(200).json({
+    status: 'success',
+    result: teams.length,
+    data: {
+      teams,
+    },
+  });
+});
 
-  const team = await VirtualTeam.findById(req.params.id).populate([
-    { path: 'team.players', populate: ['player'] },
+exports.myTeam = catchAsync(async (req, res, next) => {
+  const team = await VirtualTeam.findOne(req.params.id).populate([
+    { path: 'team.keepers', populate: ['player'] },
+    { path: 'team.defenders', populate: ['player'] },
+    { path: 'team.midFielders', populate: ['player'] },
+    { path: 'team.forwards', populate: ['player'] },
   ]);
+
+  // const team = await VirtualTeam.findById(req.params.id).populate([
+  //   { path: 'team.players', populate: ['player'] },
+  // ]);
   res.status(200).json({
     status: 'success',
     data: {
@@ -37,13 +50,12 @@ exports.myTeam = catchAsync(async (req, res, next) => {
 //   const gameWeekPoint = await VirtualTeam.aggregate([]);
 // });
 
-exports.transferPlayer = factory.updateOne(VirtualTeam);
-// catchAsync(async (req, res, next) => {
-//   const player = await VirtualTeam.findByIdAndUpdate(req.params.id);
-//   res.status(200).json({
-//     status: 'success',
-//     data: {
-//       player,
-//     },
-//   });
-// });
+exports.transferPlayer = catchAsync(async (req, res, next) => {
+  const player = await VirtualTeam.findOneAndUpdate(req.params.email);
+  res.status(200).json({
+    status: 'success',
+    data: {
+      player,
+    },
+  });
+});

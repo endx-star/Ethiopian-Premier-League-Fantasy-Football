@@ -16,6 +16,6 @@ router.route('/create-new-team').post(teamController.createNewTeam);
 router.route('/:id').get(teamController.myTeam);
 router.route('/:id/transfer-player').patch(teamController.transferPlayer);
 
-// router.route('/').get(teamController.myTeam);
+router.route('/').get(teamController.getAllTeams);
 
 module.exports = router;
