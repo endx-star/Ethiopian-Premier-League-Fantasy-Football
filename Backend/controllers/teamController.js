@@ -18,10 +18,10 @@ exports.createNewTeam = catchAsync(async (req, res, next) => {
 exports.getAllTeams = catchAsync(async (req, res, next) => {
   console.log(req.query);
   const teams = await VirtualTeam.find(req.query).populate([
-    { path: 'team.keepers', populate: ['player'] },
-    { path: 'team.defenders', populate: ['player'] },
-    { path: 'team.midfielders', populate: ['player'] },
-    { path: 'team.forwards', populate: ['player'] },
+    { path: 'team.keepers.player', populate: ['clubId'] },
+    { path: 'team.defenders.player', populate: ['clubId'] },
+    { path: 'team.midfielders.player', populate: ['clubId'] },
+    { path: 'team.forwards.player', populate: ['clubId'] },
   ]);
   // SEND RESPONSE
   res.status(200).json({
