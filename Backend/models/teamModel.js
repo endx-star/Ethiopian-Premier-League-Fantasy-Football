@@ -32,11 +32,11 @@ const virtualTeamSchema = new mongoose.Schema({
   favoriteClub: String,
   user: String,
   team: {
-    players: [TeamPlayer],
-    //   keepers: [TeamPlayer],
-    //   defenders: [TeamPlayer],
-    //   midfielders: [TeamPlayer],
-    //   forwards: [TeamPlayer],
+    // players: [TeamPlayer],
+    keepers: [TeamPlayer],
+    defenders: [TeamPlayer],
+    midfielders: [TeamPlayer],
+    forwards: [TeamPlayer],
   },
 });
 
@@ -48,20 +48,13 @@ const virtualTeamSchema = new mongoose.Schema({
 //   next();
 // });
 
-// virtualTeamSchema.post('save', async function () {
-//   let i = 0;
-//   while (i < this.players.length) {
-//     if (this.players[i].position === 'Goalkeeper' && i === 1)
-//       this.players[i].substitute = true;
-//     else if (this.players[i].position === 'Defender' && i === 6)
-//       this.players[i].substitute = true;
-//     else if (this.players[i].position === 'Midfielder' && i === 11)
-//       this.players[i].substitute = true;
-//     else if (this.players[i].position === 'Striker' && i === 14)
-//       this.players[i].substitute = true;
-//     i += 1;
-//   }
-// });
+virtualTeamSchema.pre('save', async function (next) {
+  this.team.keepers[0].substitute = true;
+  this.team.defenders[0].substitute = true;
+  this.team.midfielders[0].substitute = true;
+  this.team.forwards[0].substitute = true;
+  next();
+});
 
 const VirtualTeam = mongoose.model('VirtualTeam', virtualTeamSchema);
 module.exports = VirtualTeam;
