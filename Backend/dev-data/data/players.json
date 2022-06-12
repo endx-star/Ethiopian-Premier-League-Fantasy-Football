@@ -1,7 +1,7 @@
 [
   {
     "clubId": "628a4bf324da9108ec920f84",
-    "name": "C. Lukwago",
+    "name": "C.Lukwago",
     "position": "Goalkeeper",
     "photo": "lukwago.png",
     "price": 6.7,
@@ -35,7 +35,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f84",
-    "name": "B. Negash",
+    "name": "B.Negash",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "5.5",
@@ -69,7 +69,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f84",
-    "name": "Henok Adugna",
+    "name": "A.Henok",
     "position": "Defender",
     "photo": "default.png",
     "price": "7.1",
@@ -103,7 +103,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f84",
-    "name": "S. Hamid",
+    "name": "S.Hamid",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.6",
@@ -137,7 +137,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f84",
-    "name": "B. Wolde",
+    "name": "B.Wolde",
     "position": "Defender",
     "photo": "default.png",
     "price": "6.8",
@@ -171,7 +171,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f84",
-    "name": "D. Debebe",
+    "name": "D.Debebe",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.4",
@@ -206,7 +206,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f84",
-    "name": "A. Getachew",
+    "name": "A.Getachew",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.6",
@@ -240,7 +240,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f84",
-    "name": "G. Panom",
+    "name": "G.Panom",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "7.2",
@@ -274,7 +274,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f84",
-    "name": "H. Sherefa",
+    "name": "H.Sherefa",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "8.2",
@@ -308,7 +308,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f84",
-    "name": "Canaan Markneh",
+    "name": "C.Markneh",
     "position": "Midfielder",
     "photo": "canaan.png",
     "price": "6.7",
@@ -342,7 +342,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f84",
-    "name": "N. Zeleke",
+    "name": "N.Zeleke",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.1",
@@ -376,7 +376,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f84",
-    "name": "T. Tafese",
+    "name": "T.Tafese",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "4.8",
@@ -410,7 +410,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f84",
-    "name": "A. Samuel",
+    "name": "A.Samuel",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "7.1",
@@ -445,7 +445,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f84",
-    "name": "I. Ouro-Agoro",
+    "name": "I.Agoro",
     "position": "Striker",
     "photo": "default.png",
     "price": "8.9",
@@ -479,7 +479,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f84",
-    "name": "A. Gebremichael",
+    "name": "A.Gebremichael",
     "position": "Striker",
     "photo": "default.png",
     "price": "4.6",
@@ -513,7 +513,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f84",
-    "name": "E. Frimpong",
+    "name": "E.Frimpong",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.1",
@@ -548,7 +548,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f84",
-    "name": "C. Gugsa",
+    "name": "C.Gugsa",
     "position": "Striker",
     "photo": "default.png",
     "price": "7.0",
@@ -582,7 +582,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "Y. Kidane",
+    "name": "Y.Kidane",
     "position": "Goalkeeper",
     "photo": "kidane.png",
     "price": "5.6",
@@ -616,7 +616,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "N. Samake",
+    "name": "N.Samake",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "0.0",
@@ -651,7 +651,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "A. Tamene",
+    "name": "A.Tamene",
     "position": "Defender",
     "photo": "default.png",
     "price": "7.8",
@@ -685,7 +685,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "Yared Bayeh",
+    "name": "Y.Bayeh",
     "position": "Defender",
     "photo": "bayeh.png",
     "price": "7.4",
@@ -719,7 +719,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "Amsalu Tilahun",
+    "name": "A.Tilahun",
     "position": "Defender",
     "photo": "default.png",
     "price": "0.0",
@@ -753,7 +753,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "K. Coulibaly",
+    "name": "K.Coulibaly",
     "position": "Defender",
     "photo": "default.png",
     "price": "8.0 ",
@@ -787,7 +787,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "D. Fitsum",
+    "name": "D.Fitsum",
     "position": "Defender",
     "photo": "default.png",
     "price": "8.4",
@@ -821,7 +821,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "D. Gebeyehu",
+    "name": "D.Gebeyehu",
     "position": "Defender",
     "photo": "default.png",
     "price": "6.2",
@@ -856,7 +856,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "D. Zemede",
+    "name": "D.Zemede",
     "position": "Defender",
     "photo": "zemede.png",
     "price": "7.2",
@@ -891,7 +891,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "S. Gugsa",
+    "name": "S.Gugsa",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "9.2",
@@ -926,7 +926,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "O. Afolabi",
+    "name": "O.Afolabi",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.9",
@@ -960,7 +960,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "Y. Endeshaw",
+    "name": "Y.Endeshaw",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.4",
@@ -994,7 +994,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "H. Tekeste",
+    "name": "H.Tekeste",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "0.0",
@@ -1028,7 +1028,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "B. Mekengo",
+    "name": "B.Mekengo",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.5",
@@ -1062,7 +1062,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "B. Meleyo",
+    "name": "B.Meleyo",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.7",
@@ -1096,7 +1096,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "S. Hassen",
+    "name": "S.Hassen",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "8.1",
@@ -1130,7 +1130,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "K. Beyene",
+    "name": "K.Beyene",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.2",
@@ -1165,7 +1165,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "Abel Eyasu",
+    "name": "A.Eyasu",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.9",
@@ -1199,7 +1199,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "B. Desta",
+    "name": "B.Desta",
     "position": "Striker",
     "photo": "default.png",
     "price": "9.1",
@@ -1233,7 +1233,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "M. Kassim",
+    "name": "M.Kassim",
     "position": "Striker",
     "photo": "default.png",
     "price": "7.0",
@@ -1267,7 +1267,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "A. Yigezaw",
+    "name": "A.Yigezaw",
     "position": "Striker",
     "photo": "default.png",
     "price": "7.8",
@@ -1301,7 +1301,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f85",
-    "name": "D. Fikadu",
+    "name": "D.Fikadu",
     "position": "Striker",
     "photo": "default.png",
     "price": "0.0",
@@ -1335,7 +1335,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f86",
-    "name": "T. Meried",
+    "name": "T.Meried",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": " 8.2",
@@ -1369,7 +1369,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f86",
-    "name": "W. Ashenafi",
+    "name": "W.Ashenafi",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "4.7",
@@ -1403,7 +1403,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f86",
-    "name": "B. Wolde",
+    "name": "B.Wolde",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.1",
@@ -1437,7 +1437,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f86",
-    "name": "D. Debebe",
+    "name": "D.Debebe",
     "position": "Defender",
     "photo": "default.png",
     "price": "6.5",
@@ -1471,7 +1471,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f86",
-    "name": "Z. Tuji",
+    "name": "Z.Tuji",
     "position": "Defender",
     "photo": "default.png",
     "price": "6.1",
@@ -1505,7 +1505,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f86",
-    "name": "A. Badeg",
+    "name": "A.Badeg",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.1",
@@ -1540,7 +1540,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f86",
-    "name": "Indris Seid",
+    "name": "I.Seid",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "4.5",
@@ -1574,7 +1574,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f86",
-    "name": "H. Nigussie",
+    "name": "H.Nigussie",
     "position": "Midfielder",
     "photo": "nigussie.png",
     "price": "7.1",
@@ -1608,7 +1608,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f86",
-    "name": "Y. Yarfo",
+    "name": "Y.Yarfo",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.7",
@@ -1643,7 +1643,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f86",
-    "name": "M. Nicole",
+    "name": "M.Nicole",
     "position": "Midfielder",
     "photo": "default.png",
     "price": " ",
@@ -1677,7 +1677,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f86",
-    "name": "N. Gebreselassie",
+    "name": "N.Gebreselassie",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "7.2",
@@ -1712,7 +1712,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f86",
-    "name": "W. Wubshet",
+    "name": "W.Wubshet",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "4.1",
@@ -1747,7 +1747,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f86",
-    "name": "S. Mengistu",
+    "name": "S.Mengistu",
     "position": "Striker",
     "photo": "default.png",
     "price": "4.6",
@@ -1781,7 +1781,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f86",
-    "name": "M. Wondimu",
+    "name": "M.Wondimu",
     "position": "Striker",
     "photo": "default.png",
     "price": "8.1",
@@ -1815,7 +1815,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f86",
-    "name": "K. Zelalem",
+    "name": "K.Zelalem",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.2",
@@ -1849,7 +1849,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f86",
-    "name": "T. Fisseha",
+    "name": "T.Fisseha",
     "position": "Striker",
     "photo": "default.png",
     "price": "7.1",
@@ -1884,7 +1884,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f86",
-    "name": "K. Zelalem",
+    "name": "K.Zelalem",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.3",
@@ -1918,7 +1918,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "M. Muntari",
+    "name": "M.Muntari",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "4.0",
@@ -1952,7 +1952,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "M. Ginbo",
+    "name": "M.Ginbo",
     "position": "Goalkeeper",
     "photo": "ginbo.png",
     "price": "4.2",
@@ -1987,7 +1987,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "L. Lartey",
+    "name": "L.Lartey",
     "position": "Defender",
     "photo": "default.png",
     "price": "7.6",
@@ -2021,7 +2021,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "B. Bekele",
+    "name": "B.Bekele",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.3",
@@ -2055,7 +2055,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "D. Derbie",
+    "name": "D.Derbie",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.6",
@@ -2089,7 +2089,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "D. Kalonji",
+    "name": "D.Kalonji",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.6",
@@ -2123,7 +2123,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "T. Yohanis",
+    "name": "T.Yohanis",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.3",
@@ -2157,7 +2157,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "A. Tesfaye",
+    "name": "A.Tesfaye",
     "position": "Defender",
     "photo": "default.png",
     "price": "0.0",
@@ -2192,7 +2192,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "G. Bekalu",
+    "name": "G.Bekalu",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.8",
@@ -2226,7 +2226,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "M. Birhane",
+    "name": "M.Birhane",
     "position": "Midfielder",
     "photo": "default.png",
     "price": " 8.2",
@@ -2260,7 +2260,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "Y. Segebo",
+    "name": "Y.Segebo",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.8",
@@ -2294,7 +2294,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "C. Awush",
+    "name": "C.Awush",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "7.1",
@@ -2328,7 +2328,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "H. Dilbi",
+    "name": "H.Dilbi",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.2",
@@ -2362,7 +2362,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "A. Kemal",
+    "name": "A.Kemal",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "7.1",
@@ -2397,7 +2397,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "M. Tafesse",
+    "name": "M.Tafesse",
     "position": "Striker",
     "photo": "default.png",
     "price": "4.5",
@@ -2431,7 +2431,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "B. Beyene",
+    "name": "B.Beyene",
     "position": "Striker",
     "photo": "default.png",
     "price": "4.9",
@@ -2465,7 +2465,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "E. Ashamo",
+    "name": "E.Ashamo",
     "position": "Striker",
     "photo": "ashamo.png",
     "price": "9.0",
@@ -2500,7 +2500,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f87",
-    "name": "B. Elias",
+    "name": "B.Elias",
     "position": "Striker",
     "photo": "default.png",
     "price": "8.2",
@@ -2534,7 +2534,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "B. Shanko",
+    "name": "B.Shanko",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "5.2",
@@ -2568,7 +2568,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "M. Degefu",
+    "name": "M.Degefu",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "4.6",
@@ -2603,7 +2603,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "Y. Mohammoed",
+    "name": "Y.Mohammoed",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.6",
@@ -2637,7 +2637,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "M. Mena",
+    "name": "M.Mena",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.1",
@@ -2671,7 +2671,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "G. Gatkoch",
+    "name": "G.Gatkoch",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.1",
@@ -2705,7 +2705,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "S. Habte",
+    "name": "S.Habte",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.6",
@@ -2739,7 +2739,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "M. Kebede",
+    "name": "M.Kebede",
     "position": "Defender",
     "photo": "default.png",
     "price": "6.0",
@@ -2773,7 +2773,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "G. Bekele",
+    "name": "G.Bekele",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.3",
@@ -2808,7 +2808,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "A. Tonjo",
+    "name": "A.Tonjo",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.8",
@@ -2842,7 +2842,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "D. Tefera",
+    "name": "D.Tefera",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.2",
@@ -2876,7 +2876,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "M. Mesfin",
+    "name": "M.Mesfin",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "8.1",
@@ -2910,7 +2910,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "W. Solomon",
+    "name": "W.Solomon",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "0.0",
@@ -2944,7 +2944,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "T. Taffese",
+    "name": "T.Taffese",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.8",
@@ -2978,7 +2978,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "B. Ashamo",
+    "name": "B.Ashamo",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.8",
@@ -3013,7 +3013,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "Y. Bogale",
+    "name": "Y.Bogale",
     "position": "Striker",
     "photo": "default.png",
     "price": "8.0",
@@ -3047,7 +3047,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "F. Kahata",
+    "name": "F.Kahata",
     "position": "Striker",
     "photo": "default.png",
     "price": "8.2",
@@ -3081,7 +3081,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "H. Gezahegn",
+    "name": "H.Gezahegn",
     "position": "Striker",
     "photo": "default.png",
     "price": "7.1",
@@ -3116,7 +3116,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f88",
-    "name": "A. Dulla",
+    "name": "A.Dulla",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.6",
@@ -3150,7 +3150,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "A. Mamo",
+    "name": "A.Mamo",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "4.0",
@@ -3184,7 +3184,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "Esrael Mesfin",
+    "name": "E.Mesfin",
     "position": "Goalkeeper",
     "photo": "esrael.png",
     "price": "6.0",
@@ -3219,7 +3219,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "Abebe Tilahun",
+    "name": "A.Tilahun",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.0",
@@ -3253,7 +3253,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "H. Gebretensay",
+    "name": "H.Gebretensay",
     "position": "Defender",
     "photo": "default.png",
     "price": "3.7",
@@ -3287,7 +3287,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "Tesfaye Bekele",
+    "name": "T.Bekele",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.0",
@@ -3321,7 +3321,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "Y. Fereja",
+    "name": "Y.Fereja",
     "position": "Defender",
     "photo": "default.png",
     "price": "3.6",
@@ -3355,7 +3355,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "W. Dereje",
+    "name": "W.Dereje",
     "position": "Defender",
     "photo": "default.png",
     "price": "6.0",
@@ -3389,7 +3389,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "R. Teklemichael",
+    "name": "R.Teklemichael",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.0",
@@ -3424,7 +3424,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "A. Tonjo",
+    "name": "A.Tonjo",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.0",
@@ -3458,7 +3458,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "Amanuel Yohannes",
+    "name": "A.Yohannes",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "7.1",
@@ -3492,7 +3492,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "W. Solomon",
+    "name": "W.Solomon",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "9.0",
@@ -3526,7 +3526,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "F. Tewoldebrhan",
+    "name": "F.Tewoldebrhan",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.9",
@@ -3560,7 +3560,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "Tafesse Solomon",
+    "name": "T.Solomon",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "7.1",
@@ -3594,7 +3594,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "A. Kebede",
+    "name": "A.Kebede",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.0",
@@ -3629,7 +3629,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "A. Nassir",
+    "name": "A.Nassir",
     "position": "Striker",
     "photo": "nassir.png",
     "price": "7.1",
@@ -3663,7 +3663,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "Endale Debalke",
+    "name": "E.Debalke",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.2",
@@ -3697,7 +3697,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "Temesgen Gebrekidan",
+    "name": "T.Gebrekidan",
     "position": "Striker",
     "photo": "default.png",
     "price": "5.6",
@@ -3731,7 +3731,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f89",
-    "name": "A. Shimelis",
+    "name": "A.Shimelis",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.3",
@@ -3765,7 +3765,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "N. Mensah",
+    "name": "N.Mensah",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "5.2",
@@ -3799,7 +3799,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "M. Ayano",
+    "name": "M.Ayano",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "4.1",
@@ -3834,7 +3834,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "F. Kassa",
+    "name": "F.Kassa",
     "position": "Defender",
     "photo": "default.png",
     "price": "6.1",
@@ -3868,7 +3868,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "B. Bekele",
+    "name": "B.Bekele",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.1",
@@ -3902,7 +3902,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "H. Arficho",
+    "name": "H.Arficho",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.0",
@@ -3936,7 +3936,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "K. Wubishet",
+    "name": "K.Wubishet",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.0",
@@ -3970,7 +3970,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "G. Bekele",
+    "name": "G.Bekele",
     "position": "Defender",
     "photo": "default.png",
     "price": "3.5",
@@ -4004,7 +4004,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "F. Kasa",
+    "name": "F.Kasa",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.6",
@@ -4039,7 +4039,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "S. Tilahun",
+    "name": "S.Tilahun",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "4.1",
@@ -4073,7 +4073,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "A. Yohannes",
+    "name": "A.Yohannes",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.4",
@@ -4107,7 +4107,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "E. Zekarias",
+    "name": "E.Zekarias",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "4.5",
@@ -4141,7 +4141,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "K. Beyene",
+    "name": "K.Beyene",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "7.2",
@@ -4175,7 +4175,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "I. Tamiru",
+    "name": "I.Tamiru",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "4.6",
@@ -4209,7 +4209,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "M. Aklilu",
+    "name": "M.Aklilu",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "4.9",
@@ -4244,7 +4244,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "H. Taddese",
+    "name": "H.Taddese",
     "position": "Striker",
     "photo": "default.png",
     "price": "7.2",
@@ -4278,7 +4278,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "B. Gezahegn",
+    "name": "B.Gezahegn",
     "position": "Striker",
     "photo": "gezahegn.png",
     "price": "5.9",
@@ -4312,7 +4312,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "A. Girma",
+    "name": "A.Girma",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.7",
@@ -4346,7 +4346,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "M. George",
+    "name": "M.George",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.2",
@@ -4381,7 +4381,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8c",
-    "name": "E. Abayneh",
+    "name": "E.Abayneh",
     "position": "Striker",
     "photo": "default.png",
     "price": "7.0",
@@ -4415,7 +4415,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "S. Gbohouo",
+    "name": "S.Gbohouo",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "4.0",
@@ -4449,7 +4449,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "R. Odongkara",
+    "name": "R.Odongkara",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "5.3",
@@ -4484,7 +4484,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "R. Yesuf",
+    "name": "R.Yesuf",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.6",
@@ -4518,7 +4518,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "W. Adams",
+    "name": "W.Adams",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.9",
@@ -4552,7 +4552,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "T. Simretu",
+    "name": "T.Simretu",
     "position": "Defender",
     "photo": "default.png",
     "price": "6.3",
@@ -4586,7 +4586,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "T. Negash",
+    "name": "T.Negash",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.3",
@@ -4620,7 +4620,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "D. Nigussie",
+    "name": "D.Nigussie",
     "position": "Defender",
     "photo": "default.png",
     "price": "6.8",
@@ -4654,7 +4654,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "Butako Abebaw",
+    "name": "B.Abebaw",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.1",
@@ -4689,7 +4689,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "M. Nassir",
+    "name": "M.Nassir",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.1",
@@ -4723,7 +4723,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "H. Shewalem",
+    "name": "H.Shewalem",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.3",
@@ -4757,7 +4757,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "Y. Berta",
+    "name": "Y.Berta",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "4.6",
@@ -4791,7 +4791,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "M. Woldegiorgis",
+    "name": "M.Woldegiorgis",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.8",
@@ -4825,7 +4825,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "Adane Girma",
+    "name": "A.Girma",
     "position": "Midfielder",
     "photo": "adane.png",
     "price": "5.8",
@@ -4859,7 +4859,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "A. Al-Mehadi",
+    "name": "A.Al-Mehadi",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.8",
@@ -4894,7 +4894,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "A. Hussien",
+    "name": "A.Hussien",
     "position": "Striker",
     "photo": "default.png",
     "price": "5.3",
@@ -4928,7 +4928,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "I. Eshetu",
+    "name": "I.Eshetu",
     "position": "Striker",
     "photo": "default.png",
     "price": "3.8",
@@ -4962,7 +4962,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "A. Sani",
+    "name": "A.Sani",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.1",
@@ -4996,7 +4996,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8d",
-    "name": "A. Zewdu",
+    "name": "A.Zewdu",
     "position": "Striker",
     "photo": "default.png",
     "price": "7.1",
@@ -5030,7 +5030,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "C. Ashietey",
+    "name": "C.Ashietey",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "4.1",
@@ -5064,7 +5064,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "J. Delil",
+    "name": "J.Delil",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "3.9",
@@ -5099,7 +5099,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "L. Getachew",
+    "name": "L.Getachew",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.6",
@@ -5133,7 +5133,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "M. Adane",
+    "name": "M.Adane",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.1",
@@ -5167,7 +5167,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "D. Worku",
+    "name": "D.Worku",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.1",
@@ -5201,7 +5201,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "B. Lankamo",
+    "name": "B.Lankamo",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.0",
@@ -5235,7 +5235,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "K. Lam",
+    "name": "K.Lam",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.1",
@@ -5269,7 +5269,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "B. Belay",
+    "name": "B.Belay",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.3",
@@ -5304,7 +5304,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "D. Mamo",
+    "name": "D.Mamo",
     "position": "Midfielder",
     "photo": "mamo.png",
     "price": "5.6",
@@ -5338,7 +5338,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "G. Regassa",
+    "name": "G.Regassa",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.9",
@@ -5372,7 +5372,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "D. Desalegn",
+    "name": "D.Desalegn",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.1",
@@ -5406,7 +5406,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "A. Tessema",
+    "name": "A.Tessema",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.3",
@@ -5440,7 +5440,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "A. Kassa",
+    "name": "A.Kassa",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.1",
@@ -5474,7 +5474,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "B. Belay",
+    "name": "B.Belay",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.2",
@@ -5509,7 +5509,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "I. Eshetu",
+    "name": "I.Eshetu",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.8",
@@ -5543,7 +5543,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "B. Sylla",
+    "name": "B.Sylla",
     "position": "Striker",
     "photo": "default.png",
     "price": "8.2",
@@ -5577,7 +5577,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "E. Hailu",
+    "name": "E.Hailu",
     "position": "Striker",
     "photo": "default.png",
     "price": "7.0",
@@ -5611,7 +5611,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8a",
-    "name": "A. Cham",
+    "name": "A.Cham",
     "position": "Striker",
     "photo": "cham.png",
     "price": "6.7",
@@ -5645,7 +5645,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "A. Nuri",
+    "name": "A.Nuri",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "4.0",
@@ -5679,7 +5679,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "N. Belsti",
+    "name": "N.Belsti",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "4.3",
@@ -5714,7 +5714,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "M. Awol",
+    "name": "M.Awol",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.0",
@@ -5748,7 +5748,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "S. Wodessa",
+    "name": "S.Wodessa",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.5",
@@ -5782,7 +5782,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "A. Nikiema",
+    "name": "A.Nikiema",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.2",
@@ -5816,7 +5816,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "M. Agegnehu",
+    "name": "M.Agegnehu",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.4",
@@ -5850,7 +5850,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "F. Jemal",
+    "name": "F.Jemal",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.3",
@@ -5884,7 +5884,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "S. Tegegn",
+    "name": "S.Tegegn",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.9",
@@ -5919,7 +5919,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "F. Alemu",
+    "name": "F.Alemu",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "4.6",
@@ -5953,7 +5953,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "S. Tilahun",
+    "name": "S.Tilahun",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.0",
@@ -5987,7 +5987,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "A. Azene",
+    "name": "A.Azene",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "4.6",
@@ -6021,7 +6021,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "B. Tigabu",
+    "name": "B.Tigabu",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.1",
@@ -6055,7 +6055,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "D. Temesgen",
+    "name": "D.Temesgen",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.9",
@@ -6089,7 +6089,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "H. Worku",
+    "name": "H.Worku",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.6",
@@ -6124,7 +6124,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "G. Dissasa",
+    "name": "G.Dissasa",
     "position": "Striker",
     "photo": "default.png",
     "price": "7.0",
@@ -6158,7 +6158,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "B. Gezahegn",
+    "name": "B.Gezahegn",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.8",
@@ -6192,7 +6192,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "K. Tesfaye",
+    "name": "K.Tesfaye",
     "position": "Striker",
     "photo": "default.png",
     "price": "7.6",
@@ -6226,7 +6226,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8b",
-    "name": "A. Suliman",
+    "name": "A.Suliman",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.6",
@@ -6260,7 +6260,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "J. Tassew",
+    "name": "J.Tassew",
     "position": "Goalkeeper",
     "photo": "tassew.png",
     "price": "5.9",
@@ -6294,7 +6294,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "S. Camara",
+    "name": "S.Camara",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "5.1",
@@ -6329,7 +6329,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "A. Gobena",
+    "name": "A.Gobena",
     "position": "Defender",
     "photo": "default.png",
     "price": "6.1",
@@ -6363,7 +6363,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "T. Simretu",
+    "name": "T.Simretu",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.2",
@@ -6397,7 +6397,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "M. Solomon",
+    "name": "M.Solomon",
     "position": "Defender",
     "photo": "default.png",
     "price": "6.1",
@@ -6431,7 +6431,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "J. Yakob",
+    "name": "J.Yakob",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.1",
@@ -6465,7 +6465,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "A. Tesfaye",
+    "name": "A.Tesfaye",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.5",
@@ -6499,7 +6499,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "S. Tafesse",
+    "name": "S.Tafesse",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.0",
@@ -6533,7 +6533,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "G. Bekalu",
+    "name": "G.Bekalu",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.6",
@@ -6567,7 +6567,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "Y. Yohannes",
+    "name": "Y.Yohannes",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.1",
@@ -6601,7 +6601,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "E. Solo",
+    "name": "E.Solo",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.9",
@@ -6635,7 +6635,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "E. Mamo",
+    "name": "E.Mamo",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "4.6",
@@ -6669,7 +6669,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "D. Desalegn",
+    "name": "D.Desalegn",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.9",
@@ -6703,7 +6703,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "J. Ahmed",
+    "name": "J.Ahmed",
     "position": "Midfielder",
     "photo": "ahmed.png",
     "price": "5.0",
@@ -6738,7 +6738,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "T. Abera",
+    "name": "T.Abera",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.5",
@@ -6772,7 +6772,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "A. Nesru",
+    "name": "A.Nesru",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.7",
@@ -6806,7 +6806,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "J. Abdisa",
+    "name": "J.Abdisa",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.9",
@@ -6840,7 +6840,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f90",
-    "name": "D. Hottesa",
+    "name": "D.Hottesa",
     "position": "Striker",
     "photo": "default.png",
     "price": "7.0",
@@ -6874,7 +6874,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "Y. Tegegn",
+    "name": "Y.Tegegn",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "5.0",
@@ -6908,7 +6908,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "M. Merdokios",
+    "name": "M.Merdokios",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "4.6",
@@ -6943,7 +6943,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "A. Fida",
+    "name": "A.Fida",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.6",
@@ -6977,7 +6977,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "A. Teshome",
+    "name": "A.Teshome",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.3",
@@ -7011,7 +7011,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "D. Firew",
+    "name": "D.Firew",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.1",
@@ -7045,7 +7045,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "M. Okoro",
+    "name": "M.Okoro",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.9",
@@ -7079,7 +7079,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "B. Ochieng",
+    "name": "B.Ochieng",
     "position": "Defender",
     "photo": "default.png",
     "price": "6.1",
@@ -7113,7 +7113,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "A. Adane",
+    "name": "A.Adane",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.2",
@@ -7148,7 +7148,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "A. Shamil",
+    "name": "A.Shamil",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.8",
@@ -7182,7 +7182,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "A. Tegegn",
+    "name": "A.Tegegn",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.9",
@@ -7216,7 +7216,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "E. Mesfin",
+    "name": "E.Mesfin",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "8.5",
@@ -7250,7 +7250,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "S. Daniel",
+    "name": "S.Daniel",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.9",
@@ -7284,7 +7284,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "T. Manyazewal",
+    "name": "T.Manyazewal",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "7.9",
@@ -7318,7 +7318,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "E. Kapaito",
+    "name": "E.Kapaito",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.9",
@@ -7352,7 +7352,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "T. Abera",
+    "name": "T.Abera",
     "position": "Striker",
     "photo": "default.png",
     "price": "7.1",
@@ -7386,7 +7386,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "A. Hussien",
+    "name": "A.Hussien",
     "position": "Striker",
     "photo": "hussien.png",
     "price": "8.1",
@@ -7420,7 +7420,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "H. Kemal",
+    "name": "H.Kemal",
     "position": "Striker",
     "photo": "default.png",
     "price": "5.9",
@@ -7454,7 +7454,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8e",
-    "name": "M. Elias",
+    "name": "M.Elias",
     "position": "Striker",
     "photo": "default.png",
     "price": "8.3",
@@ -7488,7 +7488,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "F. Getahun",
+    "name": "F.Getahun",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "4.0",
@@ -7522,7 +7522,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "M. Allo",
+    "name": "M.Allo",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "4.8",
@@ -7557,7 +7557,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "M. Dana",
+    "name": "M.Dana",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.8",
@@ -7591,7 +7591,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "H. Isaias",
+    "name": "H.Isaias",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.1",
@@ -7625,7 +7625,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "A. Nafiu",
+    "name": "A.Nafiu",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.9",
@@ -7659,7 +7659,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "E. Kassahum",
+    "name": "E.Kassahum",
     "position": "Defender",
     "photo": "default.png",
     "price": "6.0",
@@ -7693,7 +7693,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "A. Gebremikael",
+    "name": "A.Gebremikael",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.2",
@@ -7727,7 +7727,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "A. Bekele",
+    "name": "A.Bekele",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.2",
@@ -7762,7 +7762,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "M. Sidibe",
+    "name": "M.Sidibe",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "4.6",
@@ -7796,7 +7796,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "M. Mesoud",
+    "name": "M.Mesoud",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.1",
@@ -7830,7 +7830,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "B. Kalbore",
+    "name": "B.Kalbore",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.5",
@@ -7864,7 +7864,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "D. Hailu",
+    "name": "D.Hailu",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.6",
@@ -7898,7 +7898,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "A. Kebede",
+    "name": "A.Kebede",
     "position": "Midfielder",
     "photo": "kebede.png",
     "price": "5.2",
@@ -7932,7 +7932,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "A. Asebe",
+    "name": "A.Asebe",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "4.6",
@@ -7967,7 +7967,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "M. Musa",
+    "name": "M.Musa",
     "position": "Striker",
     "photo": "default.png",
     "price": "9.0",
@@ -8001,7 +8001,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "G. Mebrate",
+    "name": "G.Mebrate",
     "position": "Striker",
     "photo": "default.png",
     "price": "7.1",
@@ -8035,7 +8035,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "H. Ayele",
+    "name": "H.Ayele",
     "position": "Striker",
     "photo": "default.png",
     "price": "5.3",
@@ -8069,7 +8069,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f8f",
-    "name": "A. Mubarek",
+    "name": "A.Mubarek",
     "position": "Striker",
     "photo": "default.png",
     "price": "5.6",
@@ -8103,7 +8103,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "D. Teshome",
+    "name": "D.Teshome",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "4.1",
@@ -8138,7 +8138,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "W. Geremew",
+    "name": "W.Geremew",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "5.1",
@@ -8173,7 +8173,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "A. Petros",
+    "name": "A.Petros",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.2",
@@ -8207,7 +8207,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "S. Asferi",
+    "name": "S.Asferi",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.1",
@@ -8241,7 +8241,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "R. Girma",
+    "name": "R.Girma",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.2",
@@ -8275,7 +8275,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "Z. Anshebo",
+    "name": "Z.Anshebo",
     "position": "Defender",
     "photo": "default.png",
     "price": "6.1",
@@ -8309,7 +8309,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "L. Taddese",
+    "name": "L.Taddese",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.1",
@@ -8343,7 +8343,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "I. Legesse",
+    "name": "I.Legesse",
     "position": "Defender",
     "photo": "default.png",
     "price": "6.1",
@@ -8378,7 +8378,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "Richmond Adongo",
+    "name": "R.Adongo",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.1",
@@ -8412,7 +8412,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "Ch. Ribbanu",
+    "name": "Ch.Ribbanu",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "4.6",
@@ -8446,7 +8446,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "A. Negsh",
+    "name": "A.Negsh",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.9",
@@ -8480,7 +8480,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "E. Ahmed",
+    "name": "E.Ahmed",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.6",
@@ -8514,7 +8514,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "B. Seifu",
+    "name": "B.Seifu",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.5",
@@ -8548,7 +8548,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "E. Mamo",
+    "name": "E.Mamo",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.5",
@@ -8583,7 +8583,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "Gabriel Shuaib",
+    "name": "G.Shuaib",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.6",
@@ -8617,7 +8617,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "F. Tilahun",
+    "name": "F.Tilahun",
     "position": "Striker",
     "photo": "default.png",
     "price": "4.6",
@@ -8651,7 +8651,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "E. Kebede",
+    "name": "E.Kebede",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.6",
@@ -8685,7 +8685,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f91",
-    "name": "F. Gebremichael",
+    "name": "F.Gebremichael",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.9",
@@ -8719,7 +8719,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f92",
-    "name": "T. Dagne",
+    "name": "T.Dagne",
     "position": "Goalkeeper",
     "photo": "dagne.png",
     "price": "5.0",
@@ -8753,7 +8753,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f92",
-    "name": "L. Negash",
+    "name": "L.Negash",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "5.1",
@@ -8788,7 +8788,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f92",
-    "name": "T. Melaku",
+    "name": "T.Melaku",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.1",
@@ -8822,7 +8822,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f92",
-    "name": "S. Tegegn",
+    "name": "S.Tegegn",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.2",
@@ -8856,7 +8856,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f92",
-    "name": "A. Moges",
+    "name": "A.Moges",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.6",
@@ -8890,7 +8890,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f92",
-    "name": "I. Legesse",
+    "name": "I.Legesse",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.5",
@@ -8924,7 +8924,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f92",
-    "name": "E. Nassir",
+    "name": "E.Nassir",
     "position": "Defender",
     "photo": "default.png",
     "price": "4.6",
@@ -8958,7 +8958,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f92",
-    "name": "R. Worku",
+    "name": "R.Worku",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.6",
@@ -8993,7 +8993,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f92",
-    "name": "M. Nassir",
+    "name": "M.Nassir",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "7.0",
@@ -9027,7 +9027,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f92",
-    "name": "E. Alemayehu",
+    "name": "E.Alemayehu",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.6",
@@ -9061,7 +9061,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f92",
-    "name": "Y. Mulugeta",
+    "name": "Y.Mulugeta",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.6",
@@ -9095,7 +9095,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f92",
-    "name": "Dawit Estifanos",
+    "name": "D.Estifanos",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "8.1",
@@ -9129,7 +9129,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f92",
-    "name": "D. Mulatu",
+    "name": "D.Mulatu",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.9",
@@ -9163,7 +9163,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f92",
-    "name": "M. Girma",
+    "name": "M.Girma",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.8",
@@ -9197,7 +9197,8 @@
   },
 
   {
-    "name": "B. Abdella",
+    "clubId": "628a4bf324da9108ec920f92",
+    "name": "B.Abdella",
     "position": "Striker",
     "photo": "abdella.png",
     "price": "7.1",
@@ -9230,7 +9231,8 @@
     ]
   },
   {
-    "name": "D. Fikadu",
+    "clubId": "628a4bf324da9108ec920f92",
+    "name": "D.Fikadu",
     "position": "Striker",
     "photo": "default.png",
     "price": "7.8",
@@ -9264,7 +9266,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f92",
-    "name": "Abayneh Belay",
+    "name": "A.Belay",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.8",
@@ -9298,7 +9300,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f92",
-    "name": "Yohannes Bezabhe",
+    "name": "Y.Bezabhe",
     "position": "Striker",
     "photo": "yohannes.png",
     "price": "6.1",
@@ -9332,7 +9334,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f93",
-    "name": "M. Allo",
+    "name": "M.Allo",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "4.0",
@@ -9366,7 +9368,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f93",
-    "name": "L. Birhanu",
+    "name": "L.Birhanu",
     "position": "Goalkeeper",
     "photo": "default.png",
     "price": "5.2",
@@ -9400,7 +9402,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f93",
-    "name": "M. Dana",
+    "name": "M.Dana",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.1",
@@ -9434,7 +9436,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f93",
-    "name": "Saliso Samuel",
+    "name": "S.Samuel",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.1",
@@ -9468,7 +9470,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f93",
-    "name": "A. Tesfaye",
+    "name": "A.Tesfaye",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.1",
@@ -9502,7 +9504,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f93",
-    "name": "G. Hailemaryam",
+    "name": "G.Hailemaryam",
     "position": "Defender",
     "photo": "default.png",
     "price": "5.6",
@@ -9536,7 +9538,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f93",
-    "name": "H. Adefres",
+    "name": "H.Adefres",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.1",
@@ -9570,7 +9572,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f93",
-    "name": "M. Mesoud",
+    "name": "M.Mesoud",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.7",
@@ -9604,7 +9606,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f93",
-    "name": "B. Girma",
+    "name": "B.Girma",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.9",
@@ -9638,7 +9640,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f93",
-    "name": "N. Kirizestom",
+    "name": "N.Kirizestom",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "5.6",
@@ -9672,7 +9674,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f93",
-    "name": "A. Nadew",
+    "name": "A.Nadew",
     "position": "Midfielder",
     "photo": "nadew.png",
     "price": "6.7",
@@ -9706,7 +9708,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f93",
-    "name": "Z. Isaias",
+    "name": "Z.Isaias",
     "position": "Midfielder",
     "photo": "default.png",
     "price": "6.9",
@@ -9741,7 +9743,7 @@
 
   {
     "clubId": "628a4bf324da9108ec920f93",
-    "name": "N. Theophilus",
+    "name": "N.Theophilus",
     "position": "Striker",
     "photo": "default.png",
     "price": "7.6",
@@ -9775,7 +9777,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f93",
-    "name": "B. Appiah",
+    "name": "B.Appiah",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.9",
@@ -9809,7 +9811,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f93",
-    "name": "T. Abdulhafiz",
+    "name": "T.Abdulhafiz",
     "position": "Striker",
     "photo": "default.png",
     "price": "6.1",
@@ -9843,7 +9845,7 @@
   },
   {
     "clubId": "628a4bf324da9108ec920f93",
-    "name": "B. Assefa",
+    "name": "B.Assefa",
     "position": "Striker",
     "photo": "default.png",
     "price": "7.1",

@@ -48,13 +48,23 @@ const virtualTeamSchema = new mongoose.Schema({
 //   next();
 // });
 
-virtualTeamSchema.pre('save', async function (next) {
+virtualTeamSchema.pre('save', function (next) {
   this.team.keepers[0].substitute = true;
   this.team.defenders[0].substitute = true;
   this.team.midfielders[0].substitute = true;
   this.team.forwards[0].substitute = true;
   next();
 });
+
+// virtualTeamSchema.post(/^find/, (doc, next) => {
+//   console.log(doc);
+//   doc.team.keepers[0].substitute = true;
+//   doc.team.defenders[0].substitute = true;
+//   doc.team.midfielders[0].substitute = true;
+//   doc.team.forwards[0].substitute = true;
+
+//   next();
+// });
 
 const VirtualTeam = mongoose.model('VirtualTeam', virtualTeamSchema);
 module.exports = VirtualTeam;
