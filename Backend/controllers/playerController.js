@@ -123,11 +123,11 @@ const displayPlayers = (pos) =>
       {
         $sort: { price: -1 },
       },
-      {
-        $addFields: {
-          totalPoint: { $sum: '$gameWeek.point' },
-        },
-      },
+      // {
+      //   $addFields: {
+      //     totalPoint: { $sum: '$gameWeek.point' },
+      //   },
+      // },
       {
         $project: { price: 1, totalPoint: 1, name: 1, clubId: 1 },
       },

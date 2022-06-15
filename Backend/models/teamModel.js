@@ -56,13 +56,25 @@ virtualTeamSchema.pre('save', function (next) {
   next();
 });
 
+virtualTeamSchema.post('findOneAndUpdate', (doc, next) => {
+  console.log(doc);
+  doc.save((err) => {
+    if (!err) {
+      doc.team.keepers[0].substitute = true;
+      doc.team.defenders[0].substitute = true;
+      doc.team.midfielders[0].substitute = true;
+      doc.team.forwards[0].substitute = true;
+    }
+  });
+  next();
+});
+
 // virtualTeamSchema.post(/^find/, (doc, next) => {
 //   console.log(doc);
 //   doc.team.keepers[0].substitute = true;
 //   doc.team.defenders[0].substitute = true;
 //   doc.team.midfielders[0].substitute = true;
 //   doc.team.forwards[0].substitute = true;
-
 //   next();
 // });
 

@@ -20,6 +20,10 @@ const playerSchema = new mongoose.Schema(
       type: Number,
       required: [true, 'A player must have a price'],
     },
+    totalPoint: {
+      type: Number,
+      default: 0,
+    },
     photo: String,
     position: {
       type: String,
@@ -98,6 +102,15 @@ playerSchema.pre('save', function (next) {
       this.gameWeek[i].point -= 3;
     if (this.gameWeek[i].status.includes('own goal'))
       this.gameWeek[i].point -= 2;
+    i += 1;
+  }
+  next();
+});
+
+playerSchema.pre('save', function (next) {
+  let i = 0;
+  while (i < this.gameWeek.length) {
+    this.totalPoint += this.gameWeek[i].point;
     i += 1;
   }
   next();

@@ -16,7 +16,6 @@ exports.createNewTeam = catchAsync(async (req, res, next) => {
 });
 
 exports.myTeam = catchAsync(async (req, res, next) => {
-  console.log(req.query);
   const teams = await VirtualTeam.findOne(req.query).populate([
     { path: 'team.keepers.player', populate: ['clubId'] },
     { path: 'team.defenders.player', populate: ['clubId'] },
@@ -63,7 +62,7 @@ exports.getAllTeams = catchAsync(async (req, res, next) => {
 // });
 
 // exports.teamPoint = catchAsync(async (req, res, next) => {
-//   const gameWeekPoint = await VirtualTeam.aggregate([]);
+//   const Point = await VirtualTeam.aggregate([]);
 // });
 
 exports.transferPlayer = catchAsync(async (req, res, next) => {
