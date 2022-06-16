@@ -81,6 +81,18 @@ exports.transferPlayer = catchAsync(async (req, res, next) => {
   });
 });
 
-// exports.substitutePlayer = catchAsync(async (req, res, next) => {
-//   const
-// })
+exports.teamPoint = catchAsync(async (req, res, next) => {
+  const point = await VirtualTeam.find(req.query).populate([
+    { path: 'team.keepers.player', populate: ['clubId'] },
+    { path: 'team.defenders.player', populate: ['clubId'] },
+    { path: 'team.midfielders.player', populate: ['clubId'] },
+    { path: 'team.forwards.player', populate: ['clubId'] },
+  ]);
+
+  res.status(200).json({
+    status: 'success',
+    data: {
+      point,
+    },
+  });
+});
