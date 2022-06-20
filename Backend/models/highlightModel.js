@@ -8,6 +8,8 @@ const highlightSchema = new mongoose.Schema({
     type: Date,
     default: Date.now(),
   },
+  thumbnail: String,
+  shortName: String,
 });
 
 const Highlight = mongoose.model('Highlight', highlightSchema);

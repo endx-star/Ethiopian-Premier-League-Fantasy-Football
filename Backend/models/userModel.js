@@ -8,8 +8,8 @@ const userSchema = new mongoose.Schema({
   email: {
     type: 'string',
     required: [true, 'Please provide your email'],
-    unique: true,
-    lowercase: true,
+    unique: [true, 'Already have an account with this email'],
+    lowercase: [true, 'All the letters in the email must be lowercase'],
     validate: [validator.isEmail, 'please provide a valid email'],
   },
   role: {
@@ -24,7 +24,7 @@ const userSchema = new mongoose.Schema({
   },
   passwordConfirm: {
     type: 'string',
-    // required: [true, 'Please confirm your password'],
+    required: [true, 'Please confirm your password'],
     // This only works "SAVE"
     validate: {
       validator: function (el) {

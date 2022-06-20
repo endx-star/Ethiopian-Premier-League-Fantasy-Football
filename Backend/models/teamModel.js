@@ -68,37 +68,5 @@ virtualTeamSchema.post('findOneAndUpdate', (doc, next) => {
   next();
 });
 
-// virtualTeamSchema.pre(/^find/, (doc, next) => {
-//   console.log(this);
-//   let i = 0;
-//   let Kpoint = 0;
-//   let Dpoint = 0;
-//   let Mpoint = 0;
-//   let Fpoint = 0;
-
-//   while (i < doc.team.keepers) {
-//     if (doc.team.keepers[i].substitute === true) Kpoint += 0;
-//     else Kpoint += doc.team.keepers[i].totalPoint;
-//     i += 1;
-//   }
-//   while (i < doc.team.defenders) {
-//     if (doc.team.defenders[i].substitute === true) Dpoint += 0;
-//     else Dpoint += doc.team.defenders[i].totalPoint;
-//     i += 1;
-//   }
-//   while (i < doc.team.midfielders) {
-//     if (doc.team.midfielders[i].substitute === true) Mpoint += 0;
-//     else Mpoint += doc.team.midfielders[i].totalPoint;
-//     i += 1;
-//   }
-//   while (i < doc.team.forwards) {
-//     if (doc.team.forwards[i].substitute === true) Fpoint += 0;
-//     else Fpoint += doc.team.forwards[i].totalPoint;
-//     i += 1;
-//   }
-//   doc.teamPoint = Kpoint + Dpoint + Mpoint + Fpoint;
-//   next();
-// });
-
 const VirtualTeam = mongoose.model('VirtualTeam', virtualTeamSchema);
 module.exports = VirtualTeam;

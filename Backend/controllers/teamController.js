@@ -42,6 +42,14 @@ exports.getAllTeams = catchAsync(async (req, res, next) => {
   });
 });
 
+exports.deleteAll = catchAsync(async (req, res, next) => {
+  await VirtualTeam.deleteMany();
+  res.status(204).json({
+    status: 'success',
+    data: null,
+  });
+});
+
 // exports.myTeam = catchAsync(async (req, res, next) => {
 //   const team = await VirtualTeam.findOne(req.params.id).populate([
 //     { path: 'team.keepers', populate: ['player'] },
@@ -93,6 +101,40 @@ exports.teamPoint = catchAsync(async (req, res, next) => {
     status: 'success',
     data: {
       point,
+    },
+  });
+});
+
+exports.league = catchAsync(async (req, res, next) => {
+  // const leagueUsers = await VirtualTeam.aggregate([
+  //   {
+  //     $setWindowFields: {
+  //       sortBy: { teamPoint: -1 },
+  //       output: {
+  //         rankUser: {
+  //           $rank: 1,
+  //         },
+  //       },
+  //     },
+  //   },
+  //   {
+  //     $project: { name: 1, teamPoint: 1, rank: 1 },
+  //   },
+  // ]);
+
+  let leagueUsers = await VirtualTeam.find().select('name teamPoint');
+  leagueUsers = leagueUsers
+    .sort(function (leagueUsers, b) {
+      return b.teampoint - leagueUsers.teamPoint;
+    })
+    .map(function (e, i) {
+      e.Rank = i + 1;
+      return e;
+    });
+  res.status(200).json({
+    status: 'success',
+    data: {
+      leagueUsers,
     },
   });
 });
