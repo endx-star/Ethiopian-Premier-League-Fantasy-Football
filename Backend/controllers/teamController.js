@@ -122,15 +122,19 @@ exports.league = catchAsync(async (req, res, next) => {
   //   },
   // ]);
 
-  let leagueUsers = await VirtualTeam.find().select('name teamPoint');
-  leagueUsers = leagueUsers
-    .sort(function (leagueUsers, b) {
-      return b.teampoint - leagueUsers.teamPoint;
-    })
-    .map(function (e, i) {
-      e.Rank = i + 1;
-      return e;
-    });
+  const leagueUsers = await VirtualTeam.find().select('name teamPoint');
+  const array = [];
+  for (const key in leagueUsers) {
+    array.push(leagueUsers[key]);
+  }
+  array.sort((a, b) => {
+    return a.teamPoint - b.teamPoint;
+  });
+
+  for (let i = 0; i < array.length; i++) {
+    array[i].rank = i + 1;
+  }
+
   res.status(200).json({
     status: 'success',
     data: {
@@ -138,3 +142,58 @@ exports.league = catchAsync(async (req, res, next) => {
     },
   });
 });
+
+exports.checkBank = catchAsync(async (req, res, next) => {
+  if (req.body.bank > 100) {
+    return next(
+      new AppError(
+        'The total price of players is greater than 100, please choose players with total price less than 100.',
+        500
+      )
+    );
+  }
+  next();
+});
+exports.checkDuplication = catchAsync(async (req, res, next) => {
+  let hasDuplicate = false;
+  req.body.team.keepers
+    .map((v) => v.player)
+    .sort()
+    // eslint-disable-next-line array-callback-return
+    .sort((a, b) => {
+      if (a === b) hasDuplicate = true;
+    });
+  req.body.team.defenders
+    .map((v) => v.player)
+    .sort()
+    // eslint-disable-next-line array-callback-return
+    .sort((a, b) => {
+      if (a === b) hasDuplicate = true;
+    });
+  req.body.team.forwards
+    .map((v) => v.player)
+    .sort()
+    // eslint-disable-next-line array-callback-return
+    .sort((a, b) => {
+      if (a === b) hasDuplicate = true;
+    });
+  req.body.team.midfielders
+    .map((v) => v.player)
+    .sort()
+    // eslint-disable-next-line array-callback-return
+    .sort((a, b) => {
+      if (a === b) hasDuplicate = true;
+    });
+  if (hasDuplicate) {
+    return next(
+      new AppError(
+        'you select the same player repeatedly. please select a different',
+        400
+      )
+    );
+  }
+  next();
+});
+// exports.checkClub = catchAsync(async(req, res, next)) {
+
+// }

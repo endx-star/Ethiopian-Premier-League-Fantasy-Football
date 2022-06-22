@@ -11,11 +11,19 @@ const router = express.Router();
 router
   .route('/')
   .get(clubController.getAllClubs)
-  .post(clubController.addNewClub);
+  .post(
+    clubController.uploadJersey,
+    clubController.uploadLogo,
+    clubController.addNewClub
+  );
 router
   .route('/:id')
   .get(clubController.getClub)
-  .patch(clubController.updateClub)
+  .patch(
+    clubController.uploadJersey,
+    clubController.uploadLogo,
+    clubController.updateClub
+  )
   .delete(clubController.deleteClub);
 
 module.exports = router;

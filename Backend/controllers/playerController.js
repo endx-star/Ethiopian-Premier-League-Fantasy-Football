@@ -1,9 +1,35 @@
 /* eslint-disable prettier/prettier */
+const multer = require('multer');
 const Player = require('../models/playerModel');
 const catchAsync = require('../utils/catchAsync');
 // const APIFeatures = require('../utils/apiFeatures');
-// const AppError = require('../utils/appError');
+const AppError = require('../utils/appError');
 const factory = require('./handlerFactory');
+
+const multerStorage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    cb(null, 'public/img/players');
+  },
+  filename: (req, file, cb) => {
+    console.log(req.file);
+    const ext = file.mimetype.split('/')[1];
+    cb(null, `${file.fieldname}- ${Date.now()}.${ext})`);
+  },
+});
+
+const multerFilter = (req, file, cb) => {
+  if (file.mimetype.startsWith('image')) {
+    cb(null, true);
+  } else {
+    cb(new AppError('Not an image.please upload an image', 400), false);
+  }
+};
+const upload = multer({
+  storage: multerStorage,
+  fileFilter: multerFilter,
+});
+
+exports.uploadPlayerPhoto = upload.single('photo');
 
 exports.aliasTopPlayers = (req, res, next) => {
   req.query.limit = '5';

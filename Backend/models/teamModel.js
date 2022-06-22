@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 const mongoose = require('mongoose');
 // const Player = require('./playerModel');
+const AppError = require('../utils/appError');
 
 const { ObjectId } = mongoose.Schema;
 
@@ -19,7 +20,7 @@ const virtualTeamSchema = new mongoose.Schema({
   name: {
     type: 'string',
     required: [true, 'A team must have a name'],
-    unique: true,
+    unique: [true, 'The name you entered is already taken'],
   },
   teamPoint: {
     type: Number,
@@ -38,6 +39,10 @@ const virtualTeamSchema = new mongoose.Schema({
     midfielders: [TeamPlayer],
     forwards: [TeamPlayer],
   },
+  rank: {
+    type: Number,
+    default: 0,
+  },
 });
 
 // virtualTeamSchema.pre('save', async function (next) {
@@ -55,6 +60,40 @@ virtualTeamSchema.pre('save', function (next) {
   this.team.forwards[0].substitute = true;
   next();
 });
+
+virtualTeamSchema.pre('save', function (next) {
+  let hasDuplicate = false;
+  this.team.keepers
+    .map((v) => v.player)
+    .sort()
+    // eslint-disable-next-line array-callback-return
+    .sort((a, b) => {
+      if (a === b) hasDuplicate = true;
+    });
+  if (hasDuplicate) {
+    return new AppError(
+      'you select the same player repeatedly. please select a different',
+      400
+    );
+  }
+  next();
+});
+
+// virtualTeamSchema.pre('findOneAndUpdate', function (next) {
+//   let hasDuplicate = false;
+//   this.team.keepers
+//     .map((v) => v.player)
+//     .sort()
+//     .sort((a, b) => {
+//       if (a === b) hasDuplicate = true;
+//     });
+//   if (hasDuplicate) {
+//     return new AppError(
+//       'you select the same player repeatedly. please select a different',
+//       400
+//     );
+//   }
+// });
 
 virtualTeamSchema.post('findOneAndUpdate', (doc, next) => {
   doc.save((err) => {

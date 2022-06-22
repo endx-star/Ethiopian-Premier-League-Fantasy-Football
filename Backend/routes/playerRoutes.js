@@ -23,11 +23,11 @@ router.route('/get-players-status').get(playerController.getPlayerStatus);
 router
   .route('/')
   .get(playerController.getAllPlayers)
-  .post(playerController.addNewPlayer);
+  .post(playerController.uploadPlayerPhoto, playerController.addNewPlayer);
 router
   .route('/:id')
   .get(playerController.getPlayer)
-  .patch(playerController.updatePlayer)
+  .patch(playerController.uploadPlayerPhoto, playerController.updatePlayer)
   .delete(playerController.deletePlayer);
 
 module.exports = router;

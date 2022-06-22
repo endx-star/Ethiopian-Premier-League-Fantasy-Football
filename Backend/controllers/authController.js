@@ -91,7 +91,6 @@ exports.protect = catchAsync(async (req, res, next) => {
   }
   //  4) Check if the user changed password after the token is issued
   // currentUser.changedPasswordAfter(decoded.iat)
-
   //   GRANT ACCESS TO THE PROTECTED ROUTE
   req.user = currentUser;
   next();
@@ -119,18 +118,18 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
   const resetURL = `${req.protocol}://${req.get(
     'host'
   )}/api/v1/users/resetPassword/${resetToken}`;
-  const message = `Forgot password? Submit a PATCH request with the new password and
+  const message = `Forgot password? Submit the new password and
      confirm password to:${resetURL}.\nIf you didn't forgot password please ignore this email.`;
   try {
     sendEmail({
       email: user.email,
-      subject: 'Your password reset token(Valid for 10 mins)',
+      subject: 'Your password reset link(Valid for 10 mins)',
       message,
     });
 
     res.status(200).json({
       status: 'success',
-      message: 'Token sent to the email',
+      message: 'link sent to the email',
     });
   } catch (err) {
     user.passwordResetToken = undefined;
@@ -182,7 +181,6 @@ exports.updatePassword = catchAsync(async (req, res, next) => {
   user.password = req.body.password;
   user.passwordConfirm = req.body.passwordConfirm;
   await user.save();
-
   // 4) Log user in, send JWT
   createSendToken(user, 200, res);
 });
