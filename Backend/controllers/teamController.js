@@ -106,35 +106,20 @@ exports.teamPoint = catchAsync(async (req, res, next) => {
 });
 
 exports.league = catchAsync(async (req, res, next) => {
-  // const leagueUsers = await VirtualTeam.aggregate([
-  //   {
-  //     $setWindowFields: {
-  //       sortBy: { teamPoint: -1 },
-  //       output: {
-  //         rankUser: {
-  //           $rank: 1,
-  //         },
-  //       },
-  //     },
-  //   },
-  //   {
-  //     $project: { name: 1, teamPoint: 1, rank: 1 },
-  //   },
-  // ]);
-
-  const leagueUsers = await VirtualTeam.find().select('name teamPoint');
+  const leagueUsers = await VirtualTeam.find()
+    .select('name teamPoint')
+    .sort('-teamPoint');
   const array = [];
   for (const key in leagueUsers) {
     array.push(leagueUsers[key]);
   }
-  array.sort((a, b) => {
-    return a.teamPoint - b.teamPoint;
-  });
-
+  array.sort((a, b) => b.teamPoint - a.teamPoint);
+  // eslint-disable-next-line no-plusplus
   for (let i = 0; i < array.length; i++) {
     array[i].rank = i + 1;
   }
-
+  // array.sort('-rank');
+  // leagueUsers.sort('rank');
   res.status(200).json({
     status: 'success',
     data: {
