@@ -12,7 +12,9 @@ router.route('/create-new-team').post(teamController.createNewTeam);
 router.route('/team-point').get(teamController.teamPoint);
 router.route('/league-user').get(teamController.league);
 
-router.route('/transfer-player').patch(teamController.transferPlayer);
+router
+  .route('/transfer-player')
+  .patch(teamController.checkDuplication, teamController.transferPlayer);
 router.route('/my-team').get(teamController.myTeam);
 router.route('/').get(teamController.getAllTeams);
 router.route('/').delete(teamController.deleteAll);
