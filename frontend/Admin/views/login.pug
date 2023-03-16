@@ -1,0 +1,40 @@
+extends base2
+
+block content
+
+  style.
+
+    background-image: url("/bg.jpg");
+      
+ 
+  main.main
+ 
+    .wrapper
+      section.login-content
+        .container
+          .row.align-items-center.justify-content-center.height-self-center
+            .col-lg-8
+              .card-body.p-0
+                .d-flex.align-items-center.auth-content
+                  .col-lg-7.align-self-center
+                    .p-3
+                      h2.mb-2 Sign In
+                      p Login to stay connected.
+                        .login-form
+                        p #{error}
+                        form.form.form--login
+                          .row
+                            .col-lg-12
+                            .floating-label.form-group
+                            .form__group
+                              label.form__label(for='email') Email address
+                              input#email.form__input.floating-input.form-control(type='email', placeholder='you@example.com', required)
+                            .col-lg-12
+                            .floating-label.form-group  
+                            .form__group.ma-bt-md
+                              label.form__label(for='password') Password
+                              input#password.form__input.floating-input.form-control(type='password', placeholder='••••••••', required, minlength='8')
+                            .col-lg-12
+                            .floating-label.form-group  
+                            .form__group
+                              button.btn.btn--green Login

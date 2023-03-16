@@ -1,0 +1,82 @@
+extends base
+
+block content
+
+  main.main
+
+  .content-page
+    .container-fluid.add-form-list
+    .row
+      .col-sm-12
+        .card
+          .card-header.d-flex.justify-content-between
+            .header-title
+              h4.card-title Edit Player
+          .card-body
+            form.form
+            
+              .row
+
+                .col-md-6
+                  .form-group
+                    label Player Name *
+                    input#name.form-control(type='text' value=`${player.name}`, data-errors='Please Enter Name.' required='')
+                    .help-block.with-errors
+                .col-md-6
+                  .form-group
+                    label Club *
+                    input#idstore.form-control(type='text' value=`${player.clubId}`, att=`${player.clubId}` hidden )
+                    input#pid.form-control(type='text' value=`${player.id}` hidden )
+                    select#clubdropdown.selectpicker.form-control(name='type' data-style='py-0')
+                          option(value="628a4bf324da9108ec920f84") Kedus St George
+                          option(value="628a4bf324da9108ec920f85") Fasil Kenema 
+                          option(value="628a4bf324da9108ec920f86") Welayta Dicha
+                          option(value="628a4bf324da9108ec920f87") Hawasa Ketema 
+                          option(value="628a4bf324da9108ec920f88") Sidama Bunna 
+                          option(value="628a4bf324da9108ec920f89") Ethiopia Bunna
+                          option(value="628a4bf324da9108ec920f8a") Hadiya Hosaena
+                          option(value="628a4bf324da9108ec920f8e") Wolkite Ketema
+                          option(value="628a4bf324da9108ec920f90") Adama Ketema
+                          option(value="628a4bf324da9108ec920f8b") Mekelakeya
+                          option(value="628a4bf324da9108ec920f8c") Arba Minch Kenema
+                          option(value="628a4bf324da9108ec920f8f") Dire Dawa Kenema
+                          option(value="628a4bf324da9108ec920f8d") Bahardar
+                          option(value="628a4bf324da9108ec920f91") Addis Ababa Ketema
+                          option(value="628a4bf324da9108ec920f93") Jimma Aba Jifar
+                          option(value="628a4bf324da9108ec920f92") Sebeta City
+          
+                .col-md-12
+                  .form-group
+                    label Price
+                    input#price.form-control.image-file(type='text' value=`${player.price}` )
+                .col-md-12
+                  .form-group
+                    label Position
+                    input#idstor.form-control(type='text' value=`${player.position}`, att=`${player.position}` hidden  )
+                    select#positiondrop.selectpicker.form-control(name='type' data-style='py-0')
+                          option(value="Goalkeeper") Goalkeeper   
+                          option(value="Midfielder") Midfielder
+                          option(value="Defender") Defender
+                          option(value="Forward") Forward
+                          option(value="Striker") Striker  
+                .col-md-12
+                  .form-group
+                    label Photo
+                    input#photo.form-control.image-file(type='file' value=`${player.photo}` accept='image/*')    
+
+              button.btn.btn-primary.mr-2(type='submit') Update
+             
+
+
+           
+      // Wrapper End
+      // Backend Bundle JavaScript
+      script(src='/assets/js/backend-bundle.min.js')
+      // Table Treeview JavaScript
+      script(src='/assets/js/table-treeview.js')
+      // Chart Custom JavaScript
+      script(src='/assets/js/customizer.js')
+      // Chart Custom JavaScript
+      script(async='' src='/assets/js/chart-custom.js')
+      // app JavaScript
+      script(src='/assets/js/app.js')

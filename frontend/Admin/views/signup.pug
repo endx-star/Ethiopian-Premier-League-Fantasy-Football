@@ -1,0 +1,60 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  title POS Dash | Responsive Bootstrap 4 Admin Dashboard Template
+  // Favicon
+  link(rel='shortcut icon' href='../assets/images/favicon.ico')
+  link(rel='stylesheet' href='../assets/css/backend-plugin.min.css')
+  link(rel='stylesheet' href='../assets/css/backend.css?v=1.0.0')
+  link(rel='stylesheet' href='../assets/vendor/@fortawesome/fontawesome-free/css/all.min.css')
+  link(rel='stylesheet' href='../assets/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css')
+  link(rel='stylesheet' href='../assets/vendor/remixicon/fonts/remixicon.css')
+style.
+  body {
+  background-image: url("bg.jpg");
+  }
+// loader Start
+#loading
+  #loading-center
+// loader END
+.wrapper
+  section.login-content
+    .container
+      .row.align-items-center.justify-content-center.height-self-center
+        .col-lg-8
+          .card-body.p-0
+            .d-flex.align-items-center.auth-content
+              .col-lg-7.align-self-center
+                .p-3
+                  h2.mb-2 Sign Up
+                  p Create your EPLFF account.
+                  form(action='/api/v1/users/signup' enctype='multipart/form-data' method='post')
+                    .row
+                      .col-lg-6
+                        .floating-label.form-group
+                          input#email.floating-input.form-control(name='email' type='email' placeholder=' ')
+                          label Email
+                      .col-lg-6
+                        .floating-label.form-group
+                          input#password.floating-input.form-control(name='password' type='password' placeholder=' ')
+                          label Password
+                      .col-lg-6
+                        .floating-label.form-group
+                          input#passwordConfirm.floating-input.form-control(name='passwordConfirm' type='password' placeholder=' ')
+                          label Confirm Password
+                    button.btn.btn-primary(type='submit') Sign Up
+                    p.mt-3
+                      | Already have an Account 
+                      a.text-primary(href='auth-sign-in.html') Sign In
+              .col-lg-5.content-right
+// Backend Bundle JavaScript
+script(src='../assets/js/backend-bundle.min.js')
+// Table Treeview JavaScript
+script(src='../assets/js/table-treeview.js')
+// Chart Custom JavaScript
+script(src='../assets/js/customizer.js')
+// Chart Custom JavaScript
+script(async='' src='../assets/js/chart-custom.js')
+// app JavaScript
+script(src='../assets/js/app.js')

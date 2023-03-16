@@ -1,0 +1,31 @@
+doctype html
+html
+ head
+    block head
+      style.
+        main {
+        background-image: url("/bg.jpg");
+        }
+    block content
+    meta(http-equiv='Content-Security-Policy' content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;" <='' body='')
+    
+    script( src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js')
+    script(type="module" src='/js/login.js')
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+    script(type="module" src='https://js.stripe.com/v3/')
+    script(type="module" src='/js/bundle.js')
+    link(rel='shortcut icon' href='/assets/images/favicon.ico')
+    link(rel='stylesheet' href='/assets/css/backend-plugin.min.css')
+    link(rel='stylesheet' href='/assets/css/backend.css?v=1.0.0')
+    link(rel='stylesheet' href='/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css')
+    link(rel='stylesheet' href='/assets/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css')
+    link(rel='stylesheet' href='/assets/vendor/remixicon/fonts/remixicon.css')
+    script(type="module" src='/assets/js/backend-bundle.min.js')
+      // Table Treeview JavaScript
+    script(src='/assets/js/table-treeview.js')
+      // Chart Custom JavaScript
+    script(src='/assets/js/customizer.js')
+      // Chart Custom JavaScript
+    script(async='' src='/assets/js/chart-custom.js')
+      // app JavaScript
+    script(src='/assets/js/app.js')

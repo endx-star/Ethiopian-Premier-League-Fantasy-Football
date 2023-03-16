@@ -1,0 +1,69 @@
+extends base
+
+block content
+
+  main.main
+    .body.sidebar-main
+      .content-page.sidebar-main
+        -var i=1
+        .d-flex.flex-wrap.flex-wrap.align-items-center.justify-content-between.mb-4
+          div
+            h4.mb-3 Users List
+         
+        table.data-tables.table.mb-0.tbl-server-info
+          thead.bg-white.text-uppercase
+            tr.ligth.ligth-data
+              th No
+              th E-mail
+              th Role
+              th Action
+              
+              
+          tbody.ligth-body
+        
+           each user in users
+                tr
+                  th #{i}
+
+                  td #{user.email}
+                  td #{user.role}  
+                  
+                  td
+                    .d-flex.align-items-center.list-action
+                      button.badge.bg-warning.mr-2.deletep2(data-toggle='modal' name="deletep2" id="deletep2" idPlayer=`${user._id}` data-target='.bd-example-modal-sm' data-placement='top' title='' data-original-title='Delete')
+                       i.ri-delete-bin-line.mr-0
+                        -i=i+1
+                  
+                    
+
+
+        // Delete Club modal
+        .modal.fade.bd-example-modal-sm(tabindex='-1' role='dialog' aria-hidden='true')
+          .modal-dialog.modal-sm
+            .modal-content
+              .modal-header
+                h5.modal-title Delete User
+                button.close(type='button' data-dismiss='modal' aria-label='Close')
+                  span(aria-hidden='true') &times;
+              .modal-body
+                .alert.alert-primary(role='alert')
+                  .iq-alert-icon
+                    i.ri-alert-line
+                  .iq-alert-text Are you sure You Want to Delete This User?
+              .modal-footer
+                input#deleteid2.form-control(type='text' )
+                button.btn.btn-secondary.deletor(type='button'   data-dismiss='modal') No
+                button.btn.btn-primary.btns(type='button' id="deletebtn2" name="deletor2") Approove
+        // Page end
+      // Wrapper End
+      // Backend Bundle JavaScript
+      script(src='/assets/js/backend-bundle.min.js')
+      // Table Treeview JavaScript
+      script(src='/assets/js/table-treeview.js')
+      // Chart Custom JavaScript
+      script(src='/assets/js/customizer.js')
+      // Chart Custom JavaScript
+      script(async='' src='/assets/js/chart-custom.js')
+      // app JavaScript
+      script(src='/assets/js/app.js')
+      script(src='/js/user.js')

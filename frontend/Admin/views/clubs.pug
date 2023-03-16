@@ -1,0 +1,89 @@
+extends base
+
+block content
+
+  main.main
+
+      .content-page
+        -var i=1
+        .d-flex.flex-wrap.flex-wrap.align-items-center.justify-content-between.mb-4
+          div
+            h4.mb-3 Clubs List
+          button.btn.btn-primary.las.la-plus.mr-3(type='button' data-toggle='modal' data-target='.bd-example-modal-lg') Add Club
+        table.data-tables.table.mb-0.tbl-server-info
+          thead.bg-white.text-uppercase
+            tr.ligth.ligth-data
+              th No
+              th Logo
+              th Club Name
+              th Action
+          tbody.ligth-body
+            each club in clubs
+                tr
+                  th #{i}
+                  td 
+                   img.img-fluid.rounded.avatar-50.mr-3(src=`/img/clubs/logo/${club.logo}` alt='image')
+                  td #{club.name}
+                  td
+                    .d-flex.align-items-center.list-action
+                      a.badge.bg-success.mr-2( title='Editclub' data-original-title='Edit' href=`/api/v1/clubs/editclub/${club._id}`)
+                        i.ri-pencil-line.mr-0
+                      a.badge.bg-warning.mr-2(data-toggle='modal' data-target='.bd-example-modal-sm' data-placement='top' title='' data-original-title='Delete' href='#')
+                        i.ri-delete-bin-line.mr-0
+                        - i=i+1
+
+        // Add Club modal
+        .modal.fade.bd-example-modal-lg(tabindex='-1' role='dialog' aria-hidden='true')
+         .modal-dialog.modal-lg
+          .modal-content
+              .modal-header
+                h5.modal-title Add Club
+                button.close(type='button' data-dismiss='modal' aria-label='Close')
+                  span(aria-hidden='true') &times;
+              .modal-body
+               
+                form.form.formet
+                  .form__group.col-md-12.form-group
+                    label.form__label(for='name') Club Name
+                    input#name.form-control.form__input(type='text',  required)
+                  .form__group.ma-bt-md.col-md-12.form-group
+                    label.form__label(for='shortName') Short Name
+                    input#shortname.form-control.form__input(type='text',  required)
+                  .form__group.ma-bt-md.col-md-12.form-group
+                    label.form__label(for='jersey') Jersey
+                    input#jersey.form-control.form__input(type='file',  required)
+                  .form__group.ma-bt-md.col-md-12.form-group
+                    label.form__label(for='logo') Logo
+                    input#logo.form-control.form__input(type='file',  required)
+                  .form__group.col-md-12.form-group
+                    button.btn.btn-primary.btn--green Add Club
+         
+       
+        // Delete Club modal
+        .modal.fade.bd-example-modal-sm(tabindex='-1' role='dialog' aria-hidden='true')
+          .modal-dialog.modal-sm
+            .modal-content
+              .modal-header
+                h5.modal-title Delete Club
+                button.close(type='button' data-dismiss='modal' aria-label='Close')
+                  span(aria-hidden='true') &times;
+              .modal-body
+                .alert.alert-primary(role='alert')
+                  .iq-alert-icon
+                    i.ri-alert-line
+                  .iq-alert-text Are you sure You Want to Delete This Club?
+              .modal-footer
+                button.btn.btn-secondary(type='button' data-dismiss='modal') No
+                button.btn.btn-primary(type='button') Approove
+        // Page end
+      // Wrapper End
+      // Backend Bundle JavaScript
+      script(src='/assets/js/backend-bundle.min.js')
+      // Table Treeview JavaScript
+      script(src='/assets/js/table-treeview.js')
+      // Chart Custom JavaScript
+      script(src='/assets/js/customizer.js')
+      // Chart Custom JavaScript
+      script(async='' src='/assets/js/chart-custom.js')
+      // app JavaScript
+      script(src='/assets/js/app.js')
