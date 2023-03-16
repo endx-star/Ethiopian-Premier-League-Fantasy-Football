@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 const mongoose = require('mongoose');
-// const validator = require('validator');
+const validator = require('validator');
 
 const clubSchema = new mongoose.Schema({
   name: {
