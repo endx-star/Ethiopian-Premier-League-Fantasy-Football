@@ -155,4 +155,4 @@ Security middleware: Helmet, rate limiting, XSS clean, mongo sanitize.
 - Flutter build errors: run `flutter clean && flutter pub get`.
 
 ### License
-ISC License © Endale Tegegnework. See repository license if present.
+ISC License © Endale Tegegnework.
