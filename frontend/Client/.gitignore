@@ -8,6 +8,10 @@
 .buildlog/
 .history
 .svn/
+.metadata
+
+# Coverage
+coverage/
 
 # IntelliJ related
 *.iml
@@ -23,6 +27,7 @@
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
+.fvm/
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
@@ -30,6 +35,12 @@
 .pub-cache/
 .pub/
 /build/
+
+# Flutter ephemeral directories
+**/ios/Flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
 
 # Web related
 lib/generated_plugin_registrant.dart
@@ -44,3 +55,21 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Android specific
+**/.gradle/
+**/local.properties
+**/key.properties
+**/captures/
+**/android/app/google-services.json
+**/android/app/src/main/java/**/GeneratedPluginRegistrant.java
+**/android/app/src/main/kotlin/**/GeneratedPluginRegistrant.kt
+
+# iOS specific
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/Flutter.podspec
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Runner/GoogleService-Info.plist
